@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CBEBC211F51AEFC004A71F6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBEBC201F51AEFC004A71F6 /* MapKit.framework */; };
+		7CFA5BD81F51A29100F69830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5BD71F51A29100F69830 /* AppDelegate.swift */; };
+		7CFA5BDA1F51A29100F69830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5BD91F51A29100F69830 /* ViewController.swift */; };
+		7CFA5BDD1F51A29100F69830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA5BDB1F51A29100F69830 /* Main.storyboard */; };
+		7CFA5BDF1F51A29100F69830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA5BDE1F51A29100F69830 /* Assets.xcassets */; };
+		7CFA5BE21F51A29100F69830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA5BE01F51A29100F69830 /* LaunchScreen.storyboard */; };
+		7CFA5BED1F51A29100F69830 /* CBCNews_ARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5BEC1F51A29100F69830 /* CBCNews_ARTests.swift */; };
+		7CFA5BF81F51A29100F69830 /* CBCNews_ARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5BF71F51A29100F69830 /* CBCNews_ARUITests.swift */; };
+		7CFA5C061F51A2F300F69830 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C051F51A2F300F69830 /* Story.swift */; };
+		7CFA5C171F51A49900F69830 /* ARAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C091F51A49900F69830 /* ARAnnotation.swift */; };
+		7CFA5C181F51A49900F69830 /* ARAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C0A1F51A49900F69830 /* ARAnnotationView.swift */; };
+		7CFA5C191F51A49900F69830 /* ARConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C0B1F51A49900F69830 /* ARConfiguration.swift */; };
+		7CFA5C1A1F51A49900F69830 /* ARTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C0C1F51A49900F69830 /* ARTrackingManager.swift */; };
+		7CFA5C1B1F51A49900F69830 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C0D1F51A49900F69830 /* ARViewController.swift */; };
+		7CFA5C1C1F51A49900F69830 /* DebugMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C0E1F51A49900F69830 /* DebugMapViewController.swift */; };
+		7CFA5C1D1F51A49900F69830 /* DebugMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA5C111F51A49900F69830 /* DebugMapViewController.xib */; };
+		7CFA5C1E1F51A49900F69830 /* hdar_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA5C121F51A49900F69830 /* hdar_close.png */; };
+		7CFA5C1F1F51A49900F69830 /* hdar_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA5C131F51A49900F69830 /* hdar_close@2x.png */; };
+		7CFA5C201F51A49900F69830 /* hdar_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA5C141F51A49900F69830 /* hdar_close@3x.png */; };
+		7CFA5C221F51A73400F69830 /* StoriesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C211F51A73400F69830 /* StoriesLoader.swift */; };
+		7CFA5C261F51A79E00F69830 /* StoryAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C251F51A79E00F69830 /* StoryAnnotation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CFA5BE91F51A29100F69830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CFA5BCC1F51A29000F69830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CFA5BD31F51A29100F69830;
+			remoteInfo = "CBCNews AR";
+		};
+		7CFA5BF41F51A29100F69830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CFA5BCC1F51A29000F69830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CFA5BD31F51A29100F69830;
+			remoteInfo = "CBCNews AR";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CBEBC201F51AEFC004A71F6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7CFA5BD41F51A29100F69830 /* CBCNews AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CBCNews AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFA5BD71F51A29100F69830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CFA5BD91F51A29100F69830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CFA5BDC1F51A29100F69830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CFA5BDE1F51A29100F69830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CFA5BE11F51A29100F69830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CFA5BE31F51A29100F69830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CFA5BE81F51A29100F69830 /* CBCNews ARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CBCNews ARTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFA5BEC1F51A29100F69830 /* CBCNews_ARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBCNews_ARTests.swift; sourceTree = "<group>"; };
+		7CFA5BEE1F51A29100F69830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CFA5BF31F51A29100F69830 /* CBCNews ARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CBCNews ARUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFA5BF71F51A29100F69830 /* CBCNews_ARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBCNews_ARUITests.swift; sourceTree = "<group>"; };
+		7CFA5BF91F51A29100F69830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CFA5C051F51A2F300F69830 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		7CFA5C091F51A49900F69830 /* ARAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotation.swift; sourceTree = "<group>"; };
+		7CFA5C0A1F51A49900F69830 /* ARAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotationView.swift; sourceTree = "<group>"; };
+		7CFA5C0B1F51A49900F69830 /* ARConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARConfiguration.swift; sourceTree = "<group>"; };
+		7CFA5C0C1F51A49900F69830 /* ARTrackingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARTrackingManager.swift; sourceTree = "<group>"; };
+		7CFA5C0D1F51A49900F69830 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		7CFA5C0E1F51A49900F69830 /* DebugMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugMapViewController.swift; sourceTree = "<group>"; };
+		7CFA5C111F51A49900F69830 /* DebugMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugMapViewController.xib; sourceTree = "<group>"; };
+		7CFA5C121F51A49900F69830 /* hdar_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hdar_close.png; sourceTree = "<group>"; };
+		7CFA5C131F51A49900F69830 /* hdar_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@2x.png"; sourceTree = "<group>"; };
+		7CFA5C141F51A49900F69830 /* hdar_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@3x.png"; sourceTree = "<group>"; };
+		7CFA5C211F51A73400F69830 /* StoriesLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesLoader.swift; sourceTree = "<group>"; };
+		7CFA5C251F51A79E00F69830 /* StoryAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryAnnotation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CFA5BD11F51A29100F69830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBEBC211F51AEFC004A71F6 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA5BE51F51A29100F69830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA5BF01F51A29100F69830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CBEBC1F1F51AEFC004A71F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CBEBC201F51AEFC004A71F6 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CFA5BCB1F51A29000F69830 = {
+			isa = PBXGroup;
+			children = (
+				7CFA5BD61F51A29100F69830 /* CBCNews AR */,
+				7CFA5BEB1F51A29100F69830 /* CBCNews ARTests */,
+				7CFA5BF61F51A29100F69830 /* CBCNews ARUITests */,
+				7CFA5BD51F51A29100F69830 /* Products */,
+				7CBEBC1F1F51AEFC004A71F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CFA5BD51F51A29100F69830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA5BD41F51A29100F69830 /* CBCNews AR.app */,
+				7CFA5BE81F51A29100F69830 /* CBCNews ARTests.xctest */,
+				7CFA5BF31F51A29100F69830 /* CBCNews ARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CFA5BD61F51A29100F69830 /* CBCNews AR */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA5BD71F51A29100F69830 /* AppDelegate.swift */,
+				7CFA5BD91F51A29100F69830 /* ViewController.swift */,
+				7CFA5C251F51A79E00F69830 /* StoryAnnotation.swift */,
+				7CFA5C071F51A2F800F69830 /* Model */,
+				7CFA5C161F51A49900F69830 /* HDAugmentedReality */,
+				7CFA5BDB1F51A29100F69830 /* Main.storyboard */,
+				7CFA5BDE1F51A29100F69830 /* Assets.xcassets */,
+				7CFA5BE01F51A29100F69830 /* LaunchScreen.storyboard */,
+				7CFA5BE31F51A29100F69830 /* Info.plist */,
+			);
+			path = "CBCNews AR";
+			sourceTree = "<group>";
+		};
+		7CFA5BEB1F51A29100F69830 /* CBCNews ARTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA5BEC1F51A29100F69830 /* CBCNews_ARTests.swift */,
+				7CFA5BEE1F51A29100F69830 /* Info.plist */,
+			);
+			path = "CBCNews ARTests";
+			sourceTree = "<group>";
+		};
+		7CFA5BF61F51A29100F69830 /* CBCNews ARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA5BF71F51A29100F69830 /* CBCNews_ARUITests.swift */,
+				7CFA5BF91F51A29100F69830 /* Info.plist */,
+			);
+			path = "CBCNews ARUITests";
+			sourceTree = "<group>";
+		};
+		7CFA5C071F51A2F800F69830 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA5C051F51A2F300F69830 /* Story.swift */,
+				7CFA5C211F51A73400F69830 /* StoriesLoader.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7CFA5C0F1F51A49900F69830 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA5C0E1F51A49900F69830 /* DebugMapViewController.swift */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		7CFA5C101F51A49900F69830 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA5C091F51A49900F69830 /* ARAnnotation.swift */,
+				7CFA5C0A1F51A49900F69830 /* ARAnnotationView.swift */,
+				7CFA5C0B1F51A49900F69830 /* ARConfiguration.swift */,
+				7CFA5C0C1F51A49900F69830 /* ARTrackingManager.swift */,
+				7CFA5C0D1F51A49900F69830 /* ARViewController.swift */,
+				7CFA5C0F1F51A49900F69830 /* Debug */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7CFA5C151F51A49900F69830 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA5C111F51A49900F69830 /* DebugMapViewController.xib */,
+				7CFA5C121F51A49900F69830 /* hdar_close.png */,
+				7CFA5C131F51A49900F69830 /* hdar_close@2x.png */,
+				7CFA5C141F51A49900F69830 /* hdar_close@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7CFA5C161F51A49900F69830 /* HDAugmentedReality */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA5C101F51A49900F69830 /* Classes */,
+				7CFA5C151F51A49900F69830 /* Resources */,
+			);
+			name = HDAugmentedReality;
+			path = "../../../2.0 Sample app/Places/Places/HDAugmentedReality";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CFA5BD31F51A29100F69830 /* CBCNews AR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFA5BFC1F51A29100F69830 /* Build configuration list for PBXNativeTarget "CBCNews AR" */;
+			buildPhases = (
+				7CFA5BD01F51A29100F69830 /* Sources */,
+				7CFA5BD11F51A29100F69830 /* Frameworks */,
+				7CFA5BD21F51A29100F69830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CBCNews AR";
+			productName = "CBCNews AR";
+			productReference = 7CFA5BD41F51A29100F69830 /* CBCNews AR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CFA5BE71F51A29100F69830 /* CBCNews ARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFA5BFF1F51A29100F69830 /* Build configuration list for PBXNativeTarget "CBCNews ARTests" */;
+			buildPhases = (
+				7CFA5BE41F51A29100F69830 /* Sources */,
+				7CFA5BE51F51A29100F69830 /* Frameworks */,
+				7CFA5BE61F51A29100F69830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CFA5BEA1F51A29100F69830 /* PBXTargetDependency */,
+			);
+			name = "CBCNews ARTests";
+			productName = "CBCNews ARTests";
+			productReference = 7CFA5BE81F51A29100F69830 /* CBCNews ARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CFA5BF21F51A29100F69830 /* CBCNews ARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFA5C021F51A29100F69830 /* Build configuration list for PBXNativeTarget "CBCNews ARUITests" */;
+			buildPhases = (
+				7CFA5BEF1F51A29100F69830 /* Sources */,
+				7CFA5BF01F51A29100F69830 /* Frameworks */,
+				7CFA5BF11F51A29100F69830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CFA5BF51F51A29100F69830 /* PBXTargetDependency */,
+			);
+			name = "CBCNews ARUITests";
+			productName = "CBCNews ARUITests";
+			productReference = 7CFA5BF31F51A29100F69830 /* CBCNews ARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CFA5BCC1F51A29000F69830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = VivianeChan;
+				TargetAttributes = {
+					7CFA5BD31F51A29100F69830 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3BTT3846RD;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					7CFA5BE71F51A29100F69830 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3BTT3846RD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CFA5BD31F51A29100F69830;
+					};
+					7CFA5BF21F51A29100F69830 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3BTT3846RD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CFA5BD31F51A29100F69830;
+					};
+				};
+			};
+			buildConfigurationList = 7CFA5BCF1F51A29000F69830 /* Build configuration list for PBXProject "CBCNews AR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CFA5BCB1F51A29000F69830;
+			productRefGroup = 7CFA5BD51F51A29100F69830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CFA5BD31F51A29100F69830 /* CBCNews AR */,
+				7CFA5BE71F51A29100F69830 /* CBCNews ARTests */,
+				7CFA5BF21F51A29100F69830 /* CBCNews ARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CFA5BD21F51A29100F69830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA5BE21F51A29100F69830 /* LaunchScreen.storyboard in Resources */,
+				7CFA5C1E1F51A49900F69830 /* hdar_close.png in Resources */,
+				7CFA5C201F51A49900F69830 /* hdar_close@3x.png in Resources */,
+				7CFA5BDF1F51A29100F69830 /* Assets.xcassets in Resources */,
+				7CFA5BDD1F51A29100F69830 /* Main.storyboard in Resources */,
+				7CFA5C1F1F51A49900F69830 /* hdar_close@2x.png in Resources */,
+				7CFA5C1D1F51A49900F69830 /* DebugMapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA5BE61F51A29100F69830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA5BF11F51A29100F69830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CFA5BD01F51A29100F69830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA5C261F51A79E00F69830 /* StoryAnnotation.swift in Sources */,
+				7CFA5BDA1F51A29100F69830 /* ViewController.swift in Sources */,
+				7CFA5C191F51A49900F69830 /* ARConfiguration.swift in Sources */,
+				7CFA5BD81F51A29100F69830 /* AppDelegate.swift in Sources */,
+				7CFA5C1B1F51A49900F69830 /* ARViewController.swift in Sources */,
+				7CFA5C061F51A2F300F69830 /* Story.swift in Sources */,
+				7CFA5C1A1F51A49900F69830 /* ARTrackingManager.swift in Sources */,
+				7CFA5C221F51A73400F69830 /* StoriesLoader.swift in Sources */,
+				7CFA5C171F51A49900F69830 /* ARAnnotation.swift in Sources */,
+				7CFA5C1C1F51A49900F69830 /* DebugMapViewController.swift in Sources */,
+				7CFA5C181F51A49900F69830 /* ARAnnotationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA5BE41F51A29100F69830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA5BED1F51A29100F69830 /* CBCNews_ARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA5BEF1F51A29100F69830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA5BF81F51A29100F69830 /* CBCNews_ARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CFA5BEA1F51A29100F69830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CFA5BD31F51A29100F69830 /* CBCNews AR */;
+			targetProxy = 7CFA5BE91F51A29100F69830 /* PBXContainerItemProxy */;
+		};
+		7CFA5BF51F51A29100F69830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CFA5BD31F51A29100F69830 /* CBCNews AR */;
+			targetProxy = 7CFA5BF41F51A29100F69830 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CFA5BDB1F51A29100F69830 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFA5BDC1F51A29100F69830 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CFA5BE01F51A29100F69830 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFA5BE11F51A29100F69830 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CFA5BFA1F51A29100F69830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CFA5BFB1F51A29100F69830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CFA5BFD1F51A29100F69830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3BTT3846RD;
+				INFOPLIST_FILE = "CBCNews AR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VivianeChan.CBCNews-AR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7CFA5BFE1F51A29100F69830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3BTT3846RD;
+				INFOPLIST_FILE = "CBCNews AR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VivianeChan.CBCNews-AR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7CFA5C001F51A29100F69830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3BTT3846RD;
+				INFOPLIST_FILE = "CBCNews ARTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VivianeChan.CBCNews-ARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CBCNews AR.app/CBCNews AR";
+			};
+			name = Debug;
+		};
+		7CFA5C011F51A29100F69830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3BTT3846RD;
+				INFOPLIST_FILE = "CBCNews ARTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VivianeChan.CBCNews-ARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CBCNews AR.app/CBCNews AR";
+			};
+			name = Release;
+		};
+		7CFA5C031F51A29100F69830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3BTT3846RD;
+				INFOPLIST_FILE = "CBCNews ARUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VivianeChan.CBCNews-ARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CBCNews AR";
+			};
+			name = Debug;
+		};
+		7CFA5C041F51A29100F69830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3BTT3846RD;
+				INFOPLIST_FILE = "CBCNews ARUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VivianeChan.CBCNews-ARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CBCNews AR";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CFA5BCF1F51A29000F69830 /* Build configuration list for PBXProject "CBCNews AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFA5BFA1F51A29100F69830 /* Debug */,
+				7CFA5BFB1F51A29100F69830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CFA5BFC1F51A29100F69830 /* Build configuration list for PBXNativeTarget "CBCNews AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFA5BFD1F51A29100F69830 /* Debug */,
+				7CFA5BFE1F51A29100F69830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CFA5BFF1F51A29100F69830 /* Build configuration list for PBXNativeTarget "CBCNews ARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFA5C001F51A29100F69830 /* Debug */,
+				7CFA5C011F51A29100F69830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CFA5C021F51A29100F69830 /* Build configuration list for PBXNativeTarget "CBCNews ARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFA5C031F51A29100F69830 /* Debug */,
+				7CFA5C041F51A29100F69830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CFA5BCC1F51A29000F69830 /* Project object */;
+}

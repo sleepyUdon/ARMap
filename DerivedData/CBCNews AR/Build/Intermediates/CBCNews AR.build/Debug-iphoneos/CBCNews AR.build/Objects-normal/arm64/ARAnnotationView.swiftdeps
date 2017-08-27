@@ -1,0 +1,287 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ARAnnotationView"
+provides-nominal:
+- "C10CBCNews_AR16ARAnnotationView"
+provides-member:
+- ["C10CBCNews_AR16ARAnnotationView", ""]
+provides-dynamic-lookup:
+- "annotation"
+- "awakeFromNib"
+- "bindUi"
+- "initialize"
+depends-top-level:
+- "ARAnnotation"
+- "ARAnnotationView"
+- !private "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGRect"
+- "NSCoder"
+- "UIView"
+depends-member:
+- ["C10CBCNews_AR16ARAnnotationView", "ARAnnotation"]
+- ["C10CBCNews_AR16ARAnnotationView", "Bool"]
+- ["C10CBCNews_AR16ARAnnotationView", "CGRect"]
+- ["C10CBCNews_AR16ARAnnotationView", "NSCoder"]
+- ["C10CBCNews_AR16ARAnnotationView", "annotation"]
+- ["C10CBCNews_AR16ARAnnotationView", "awakeFromNib"]
+- ["C10CBCNews_AR16ARAnnotationView", "bindUi"]
+- ["C10CBCNews_AR16ARAnnotationView", "deinit"]
+- ["C10CBCNews_AR16ARAnnotationView", "init"]
+- ["C10CBCNews_AR16ARAnnotationView", "initialize"]
+- !private ["C10CBCNews_AR16ARAnnotationView", "initializeInternal"]
+- !private ["C10CBCNews_AR16ARAnnotationView", "initialized"]
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "bindUi"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "initialize"]
+- !private ["Ps9AnyObject", "initializeInternal"]
+- !private ["Ps9AnyObject", "initialized"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "CGRect"]
+- !private ["PSo15CALayerDelegate", "bindUi"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "initialize"]
+- !private ["PSo15CALayerDelegate", "initializeInternal"]
+- !private ["PSo15CALayerDelegate", "initialized"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["VSC6CGRect", "zero"]
+- !private ["Ps7CVarArg", "CGRect"]
+- !private ["Ps7CVarArg", "bindUi"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "initialize"]
+- !private ["Ps7CVarArg", "initializeInternal"]
+- !private ["Ps7CVarArg", "initialized"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "bindUi"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "initialize"]
+- !private ["Ps28CustomDebugStringConvertible", "initializeInternal"]
+- !private ["Ps28CustomDebugStringConvertible", "initialized"]
+- !private ["Ps28CustomDebugStringConvertible", "zero"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "zero"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "zero"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "bindUi"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "initialize"]
+- !private ["Ps23CustomStringConvertible", "initializeInternal"]
+- !private ["Ps23CustomStringConvertible", "initialized"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "bindUi"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "initialize"]
+- !private ["Ps9Equatable", "initializeInternal"]
+- !private ["Ps9Equatable", "initialized"]
+- !private ["Ps9Equatable", "zero"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "bindUi"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "initialize"]
+- !private ["Ps8Hashable", "initializeInternal"]
+- !private ["Ps8Hashable", "initialized"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSo8NSCoding", "CGRect"]
+- !private ["PSo8NSCoding", "bindUi"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "initialize"]
+- !private ["PSo8NSCoding", "initializeInternal"]
+- !private ["PSo8NSCoding", "initialized"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "ARAnnotation"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "annotation"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "bindUi"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initialize"]
+- ["CSo8NSObject", "initializeInternal"]
+- ["CSo8NSObject", "initialized"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "bindUi"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "initialize"]
+- !private ["PSo16NSObjectProtocol", "initializeInternal"]
+- !private ["PSo16NSObjectProtocol", "initialized"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo29UIAccessibilityIdentification", "CGRect"]
+- !private ["PSo29UIAccessibilityIdentification", "bindUi"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "initialize"]
+- !private ["PSo29UIAccessibilityIdentification", "initializeInternal"]
+- !private ["PSo29UIAccessibilityIdentification", "initialized"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGRect"]
+- !private ["PSo12UIAppearance", "bindUi"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "initialize"]
+- !private ["PSo12UIAppearance", "initializeInternal"]
+- !private ["PSo12UIAppearance", "initialized"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGRect"]
+- !private ["PSo21UIAppearanceContainer", "bindUi"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "initialize"]
+- !private ["PSo21UIAppearanceContainer", "initializeInternal"]
+- !private ["PSo21UIAppearanceContainer", "initialized"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "CGRect"]
+- !private ["PSo17UICoordinateSpace", "bindUi"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "initialize"]
+- !private ["PSo17UICoordinateSpace", "initializeInternal"]
+- !private ["PSo17UICoordinateSpace", "initialized"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGRect"]
+- !private ["PSo13UIDynamicItem", "bindUi"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "initialize"]
+- !private ["PSo13UIDynamicItem", "initializeInternal"]
+- !private ["PSo13UIDynamicItem", "initialized"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGRect"]
+- !private ["PSo18UIFocusEnvironment", "bindUi"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "initialize"]
+- !private ["PSo18UIFocusEnvironment", "initializeInternal"]
+- !private ["PSo18UIFocusEnvironment", "initialized"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "CGRect"]
+- !private ["PSo11UIFocusItem", "bindUi"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "initialize"]
+- !private ["PSo11UIFocusItem", "initializeInternal"]
+- !private ["PSo11UIFocusItem", "initialized"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIResponder", "ARAnnotation"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "NSCoder"]
+- ["CSo11UIResponder", "annotation"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "bindUi"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "initialize"]
+- ["CSo11UIResponder", "initializeInternal"]
+- ["CSo11UIResponder", "initialized"]
+- !private ["PSo30UIResponderStandardEditActions", "CGRect"]
+- !private ["PSo30UIResponderStandardEditActions", "bindUi"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "initialize"]
+- !private ["PSo30UIResponderStandardEditActions", "initializeInternal"]
+- !private ["PSo30UIResponderStandardEditActions", "initialized"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "CGRect"]
+- !private ["PSo18UITraitEnvironment", "bindUi"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "initialize"]
+- !private ["PSo18UITraitEnvironment", "initializeInternal"]
+- !private ["PSo18UITraitEnvironment", "initialized"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "ARAnnotation"]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "NSCoder"]
+- ["CSo6UIView", "annotation"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "bindUi"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "initialize"]
+- ["CSo6UIView", "initializeInternal"]
+- ["CSo6UIView", "initialized"]
+- ["CSo6UIView", ""]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGRect"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "bindUi"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "initialize"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "initializeInternal"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "initialized"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "CGRect"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "bindUi"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "initialize"]
+- !private ["Ps9_Hashable", "initializeInternal"]
+- !private ["Ps9_Hashable", "initialized"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "zero"]
+depends-nominal:
+- "C10CBCNews_AR16ARAnnotationView"
+- "Ps9AnyObject"
+- !private "Sb"
+- "PSo15CALayerDelegate"
+- !private "VSC6CGRect"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "574f63f84c7ab875d5a2ca7b488cd490"
