@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CAB72581F5488C5007378C1 /* ARAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB724C1F5488C5007378C1 /* ARAnnotation.swift */; };
+		7CAB72591F5488C5007378C1 /* ARAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB724D1F5488C5007378C1 /* ARAnnotationView.swift */; };
+		7CAB725A1F5488C5007378C1 /* ARConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB724E1F5488C5007378C1 /* ARConfiguration.swift */; };
+		7CAB725B1F5488C5007378C1 /* ARTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB724F1F5488C5007378C1 /* ARTrackingManager.swift */; };
+		7CAB725C1F5488C5007378C1 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB72501F5488C5007378C1 /* ARViewController.swift */; };
+		7CAB725D1F5488C5007378C1 /* DebugMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB72521F5488C5007378C1 /* DebugMapViewController.swift */; };
+		7CAB725E1F5488C5007378C1 /* DebugMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CAB72541F5488C5007378C1 /* DebugMapViewController.xib */; };
+		7CAB725F1F5488C5007378C1 /* hdar_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAB72551F5488C5007378C1 /* hdar_close.png */; };
+		7CAB72601F5488C5007378C1 /* hdar_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAB72561F5488C5007378C1 /* hdar_close@2x.png */; };
+		7CAB72611F5488C5007378C1 /* hdar_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAB72571F5488C5007378C1 /* hdar_close@3x.png */; };
+		7CAB72631F548980007378C1 /* CustomCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CAB72621F548980007378C1 /* CustomCalloutView.xib */; };
+		7CAB72651F548991007378C1 /* CustomCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB72641F548990007378C1 /* CustomCalloutView.swift */; };
 		7CBEBC211F51AEFC004A71F6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBEBC201F51AEFC004A71F6 /* MapKit.framework */; };
 		7CBEBC231F545879004A71F6 /* StoryAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBEBC221F545879004A71F6 /* StoryAnnotationView.swift */; };
 		7CFA5BD81F51A29100F69830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5BD71F51A29100F69830 /* AppDelegate.swift */; };
@@ -17,16 +29,6 @@
 		7CFA5BED1F51A29100F69830 /* CBCNews_ARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5BEC1F51A29100F69830 /* CBCNews_ARTests.swift */; };
 		7CFA5BF81F51A29100F69830 /* CBCNews_ARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5BF71F51A29100F69830 /* CBCNews_ARUITests.swift */; };
 		7CFA5C061F51A2F300F69830 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C051F51A2F300F69830 /* Story.swift */; };
-		7CFA5C171F51A49900F69830 /* ARAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C091F51A49900F69830 /* ARAnnotation.swift */; };
-		7CFA5C181F51A49900F69830 /* ARAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C0A1F51A49900F69830 /* ARAnnotationView.swift */; };
-		7CFA5C191F51A49900F69830 /* ARConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C0B1F51A49900F69830 /* ARConfiguration.swift */; };
-		7CFA5C1A1F51A49900F69830 /* ARTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C0C1F51A49900F69830 /* ARTrackingManager.swift */; };
-		7CFA5C1B1F51A49900F69830 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C0D1F51A49900F69830 /* ARViewController.swift */; };
-		7CFA5C1C1F51A49900F69830 /* DebugMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C0E1F51A49900F69830 /* DebugMapViewController.swift */; };
-		7CFA5C1D1F51A49900F69830 /* DebugMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA5C111F51A49900F69830 /* DebugMapViewController.xib */; };
-		7CFA5C1E1F51A49900F69830 /* hdar_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA5C121F51A49900F69830 /* hdar_close.png */; };
-		7CFA5C1F1F51A49900F69830 /* hdar_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA5C131F51A49900F69830 /* hdar_close@2x.png */; };
-		7CFA5C201F51A49900F69830 /* hdar_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA5C141F51A49900F69830 /* hdar_close@3x.png */; };
 		7CFA5C221F51A73400F69830 /* StoriesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C211F51A73400F69830 /* StoriesLoader.swift */; };
 		7CFA5C261F51A79E00F69830 /* StoryAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5C251F51A79E00F69830 /* StoryAnnotation.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +51,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7CAB724C1F5488C5007378C1 /* ARAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotation.swift; sourceTree = "<group>"; };
+		7CAB724D1F5488C5007378C1 /* ARAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotationView.swift; sourceTree = "<group>"; };
+		7CAB724E1F5488C5007378C1 /* ARConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARConfiguration.swift; sourceTree = "<group>"; };
+		7CAB724F1F5488C5007378C1 /* ARTrackingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARTrackingManager.swift; sourceTree = "<group>"; };
+		7CAB72501F5488C5007378C1 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		7CAB72521F5488C5007378C1 /* DebugMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugMapViewController.swift; sourceTree = "<group>"; };
+		7CAB72541F5488C5007378C1 /* DebugMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugMapViewController.xib; sourceTree = "<group>"; };
+		7CAB72551F5488C5007378C1 /* hdar_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hdar_close.png; sourceTree = "<group>"; };
+		7CAB72561F5488C5007378C1 /* hdar_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@2x.png"; sourceTree = "<group>"; };
+		7CAB72571F5488C5007378C1 /* hdar_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@3x.png"; sourceTree = "<group>"; };
+		7CAB72621F548980007378C1 /* CustomCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCalloutView.xib; sourceTree = "<group>"; };
+		7CAB72641F548990007378C1 /* CustomCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCalloutView.swift; sourceTree = "<group>"; };
 		7CBEBC201F51AEFC004A71F6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7CBEBC221F545879004A71F6 /* StoryAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryAnnotationView.swift; sourceTree = "<group>"; };
 		7CFA5BD41F51A29100F69830 /* CBCNews AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CBCNews AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,16 +79,6 @@
 		7CFA5BF71F51A29100F69830 /* CBCNews_ARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBCNews_ARUITests.swift; sourceTree = "<group>"; };
 		7CFA5BF91F51A29100F69830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CFA5C051F51A2F300F69830 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
-		7CFA5C091F51A49900F69830 /* ARAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotation.swift; sourceTree = "<group>"; };
-		7CFA5C0A1F51A49900F69830 /* ARAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotationView.swift; sourceTree = "<group>"; };
-		7CFA5C0B1F51A49900F69830 /* ARConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARConfiguration.swift; sourceTree = "<group>"; };
-		7CFA5C0C1F51A49900F69830 /* ARTrackingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARTrackingManager.swift; sourceTree = "<group>"; };
-		7CFA5C0D1F51A49900F69830 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
-		7CFA5C0E1F51A49900F69830 /* DebugMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugMapViewController.swift; sourceTree = "<group>"; };
-		7CFA5C111F51A49900F69830 /* DebugMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugMapViewController.xib; sourceTree = "<group>"; };
-		7CFA5C121F51A49900F69830 /* hdar_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hdar_close.png; sourceTree = "<group>"; };
-		7CFA5C131F51A49900F69830 /* hdar_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@2x.png"; sourceTree = "<group>"; };
-		7CFA5C141F51A49900F69830 /* hdar_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@3x.png"; sourceTree = "<group>"; };
 		7CFA5C211F51A73400F69830 /* StoriesLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesLoader.swift; sourceTree = "<group>"; };
 		7CFA5C251F51A79E00F69830 /* StoryAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +109,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CAB724A1F5488C5007378C1 /* HDAugmentedReality */ = {
+			isa = PBXGroup;
+			children = (
+				7CAB724B1F5488C5007378C1 /* Classes */,
+				7CAB72531F5488C5007378C1 /* Resources */,
+			);
+			path = HDAugmentedReality;
+			sourceTree = "<group>";
+		};
+		7CAB724B1F5488C5007378C1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7CAB724C1F5488C5007378C1 /* ARAnnotation.swift */,
+				7CAB724D1F5488C5007378C1 /* ARAnnotationView.swift */,
+				7CAB724E1F5488C5007378C1 /* ARConfiguration.swift */,
+				7CAB724F1F5488C5007378C1 /* ARTrackingManager.swift */,
+				7CAB72501F5488C5007378C1 /* ARViewController.swift */,
+				7CAB72511F5488C5007378C1 /* Debug */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7CAB72511F5488C5007378C1 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				7CAB72521F5488C5007378C1 /* DebugMapViewController.swift */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		7CAB72531F5488C5007378C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CAB72541F5488C5007378C1 /* DebugMapViewController.xib */,
+				7CAB72551F5488C5007378C1 /* hdar_close.png */,
+				7CAB72561F5488C5007378C1 /* hdar_close@2x.png */,
+				7CAB72571F5488C5007378C1 /* hdar_close@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		7CBEBC1F1F51AEFC004A71F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,11 +184,13 @@
 			children = (
 				7CFA5BD71F51A29100F69830 /* AppDelegate.swift */,
 				7CFA5BD91F51A29100F69830 /* ViewController.swift */,
+				7CAB72641F548990007378C1 /* CustomCalloutView.swift */,
 				7CFA5C251F51A79E00F69830 /* StoryAnnotation.swift */,
 				7CBEBC221F545879004A71F6 /* StoryAnnotationView.swift */,
+				7CAB724A1F5488C5007378C1 /* HDAugmentedReality */,
 				7CFA5C071F51A2F800F69830 /* Model */,
-				7CFA5C161F51A49900F69830 /* HDAugmentedReality */,
 				7CFA5BDB1F51A29100F69830 /* Main.storyboard */,
+				7CAB72621F548980007378C1 /* CustomCalloutView.xib */,
 				7CFA5BDE1F51A29100F69830 /* Assets.xcassets */,
 				7CFA5BE01F51A29100F69830 /* LaunchScreen.storyboard */,
 				7CFA5BE31F51A29100F69830 /* Info.plist */,
@@ -176,48 +223,6 @@
 				7CFA5C211F51A73400F69830 /* StoriesLoader.swift */,
 			);
 			name = Model;
-			sourceTree = "<group>";
-		};
-		7CFA5C0F1F51A49900F69830 /* Debug */ = {
-			isa = PBXGroup;
-			children = (
-				7CFA5C0E1F51A49900F69830 /* DebugMapViewController.swift */,
-			);
-			path = Debug;
-			sourceTree = "<group>";
-		};
-		7CFA5C101F51A49900F69830 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				7CFA5C091F51A49900F69830 /* ARAnnotation.swift */,
-				7CFA5C0A1F51A49900F69830 /* ARAnnotationView.swift */,
-				7CFA5C0B1F51A49900F69830 /* ARConfiguration.swift */,
-				7CFA5C0C1F51A49900F69830 /* ARTrackingManager.swift */,
-				7CFA5C0D1F51A49900F69830 /* ARViewController.swift */,
-				7CFA5C0F1F51A49900F69830 /* Debug */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		7CFA5C151F51A49900F69830 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7CFA5C111F51A49900F69830 /* DebugMapViewController.xib */,
-				7CFA5C121F51A49900F69830 /* hdar_close.png */,
-				7CFA5C131F51A49900F69830 /* hdar_close@2x.png */,
-				7CFA5C141F51A49900F69830 /* hdar_close@3x.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		7CFA5C161F51A49900F69830 /* HDAugmentedReality */ = {
-			isa = PBXGroup;
-			children = (
-				7CFA5C101F51A49900F69830 /* Classes */,
-				7CFA5C151F51A49900F69830 /* Resources */,
-			);
-			name = HDAugmentedReality;
-			path = "../../../2.0 Sample app/Places/Places/HDAugmentedReality";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,13 +340,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CAB72631F548980007378C1 /* CustomCalloutView.xib in Resources */,
 				7CFA5BE21F51A29100F69830 /* LaunchScreen.storyboard in Resources */,
-				7CFA5C1E1F51A49900F69830 /* hdar_close.png in Resources */,
-				7CFA5C201F51A49900F69830 /* hdar_close@3x.png in Resources */,
+				7CAB725F1F5488C5007378C1 /* hdar_close.png in Resources */,
+				7CAB72611F5488C5007378C1 /* hdar_close@3x.png in Resources */,
 				7CFA5BDF1F51A29100F69830 /* Assets.xcassets in Resources */,
 				7CFA5BDD1F51A29100F69830 /* Main.storyboard in Resources */,
-				7CFA5C1F1F51A49900F69830 /* hdar_close@2x.png in Resources */,
-				7CFA5C1D1F51A49900F69830 /* DebugMapViewController.xib in Resources */,
+				7CAB72601F5488C5007378C1 /* hdar_close@2x.png in Resources */,
+				7CAB725E1F5488C5007378C1 /* DebugMapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,17 +373,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CFA5C261F51A79E00F69830 /* StoryAnnotation.swift in Sources */,
+				7CAB725B1F5488C5007378C1 /* ARTrackingManager.swift in Sources */,
+				7CAB72581F5488C5007378C1 /* ARAnnotation.swift in Sources */,
+				7CAB72591F5488C5007378C1 /* ARAnnotationView.swift in Sources */,
 				7CFA5BDA1F51A29100F69830 /* ViewController.swift in Sources */,
-				7CFA5C191F51A49900F69830 /* ARConfiguration.swift in Sources */,
 				7CFA5BD81F51A29100F69830 /* AppDelegate.swift in Sources */,
-				7CFA5C1B1F51A49900F69830 /* ARViewController.swift in Sources */,
 				7CFA5C061F51A2F300F69830 /* Story.swift in Sources */,
-				7CFA5C1A1F51A49900F69830 /* ARTrackingManager.swift in Sources */,
+				7CAB72651F548991007378C1 /* CustomCalloutView.swift in Sources */,
+				7CAB725D1F5488C5007378C1 /* DebugMapViewController.swift in Sources */,
 				7CFA5C221F51A73400F69830 /* StoriesLoader.swift in Sources */,
-				7CFA5C171F51A49900F69830 /* ARAnnotation.swift in Sources */,
-				7CFA5C1C1F51A49900F69830 /* DebugMapViewController.swift in Sources */,
-				7CFA5C181F51A49900F69830 /* ARAnnotationView.swift in Sources */,
+				7CAB725A1F5488C5007378C1 /* ARConfiguration.swift in Sources */,
 				7CBEBC231F545879004A71F6 /* StoryAnnotationView.swift in Sources */,
+				7CAB725C1F5488C5007378C1 /* ARViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

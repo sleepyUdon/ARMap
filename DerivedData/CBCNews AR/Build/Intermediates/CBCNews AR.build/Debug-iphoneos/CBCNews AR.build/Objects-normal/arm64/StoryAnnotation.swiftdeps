@@ -1,120 +1,11 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "StoryAnnotation"
 provides-nominal:
-- "C10CBCNews_AR15StoryAnnotation"
 provides-member:
-- ["C10CBCNews_AR15StoryAnnotation", ""]
 provides-dynamic-lookup:
-- "coordinate"
-- "publishedDate"
-- "title"
 depends-top-level:
-- "AssignmentPrecedence"
-- "CLLocationCoordinate2D"
-- "MKAnnotation"
-- "NSObject"
-- "StoryAnnotation"
-- "String"
-- !private "StringLiteralType"
 depends-member:
-- ["Ps9AnyObject", "coordinate"]
-- !private ["Ps9AnyObject", "init"]
-- !private ["Ps9AnyObject", "publishedDate"]
-- ["Ps9AnyObject", "subtitle"]
-- ["Ps9AnyObject", "title"]
-- ["Ps9AnyObject", ""]
-- ["Ps7CVarArg", "coordinate"]
-- !private ["Ps7CVarArg", "init"]
-- !private ["Ps7CVarArg", "publishedDate"]
-- ["Ps7CVarArg", "subtitle"]
-- ["Ps7CVarArg", "title"]
-- ["Ps7CVarArg", ""]
-- ["Ps28CustomDebugStringConvertible", "coordinate"]
-- !private ["Ps28CustomDebugStringConvertible", "init"]
-- !private ["Ps28CustomDebugStringConvertible", "publishedDate"]
-- ["Ps28CustomDebugStringConvertible", "subtitle"]
-- ["Ps28CustomDebugStringConvertible", "title"]
-- ["Ps28CustomDebugStringConvertible", ""]
-- !private ["Ps17CustomReflectable", "init"]
-- ["Ps23CustomStringConvertible", "coordinate"]
-- !private ["Ps23CustomStringConvertible", "init"]
-- !private ["Ps23CustomStringConvertible", "publishedDate"]
-- ["Ps23CustomStringConvertible", "subtitle"]
-- ["Ps23CustomStringConvertible", "title"]
-- ["Ps23CustomStringConvertible", ""]
-- ["Ps9Equatable", "coordinate"]
-- !private ["Ps9Equatable", "init"]
-- !private ["Ps9Equatable", "publishedDate"]
-- ["Ps9Equatable", "subtitle"]
-- ["Ps9Equatable", "title"]
-- ["Ps9Equatable", ""]
-- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps26ExpressibleByStringLiteral", "init"]
-- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
-- ["Ps8Hashable", "coordinate"]
-- !private ["Ps8Hashable", "init"]
-- !private ["Ps8Hashable", "publishedDate"]
-- ["Ps8Hashable", "subtitle"]
-- ["Ps8Hashable", "title"]
-- ["Ps8Hashable", ""]
-- ["PSo12MKAnnotation", "coordinate"]
-- !private ["PSo12MKAnnotation", "publishedDate"]
-- ["PSo12MKAnnotation", "subtitle"]
-- ["PSo12MKAnnotation", "title"]
-- ["PSo12MKAnnotation", ""]
-- ["CSo8NSObject", "CLLocationCoordinate2D"]
-- ["CSo8NSObject", "String"]
-- ["CSo8NSObject", "coordinate"]
-- ["CSo8NSObject", "init"]
-- ["CSo8NSObject", "publishedDate"]
-- ["CSo8NSObject", "subtitle"]
-- ["CSo8NSObject", "title"]
-- ["CSo8NSObject", ""]
-- ["PSo16NSObjectProtocol", "coordinate"]
-- !private ["PSo16NSObjectProtocol", "init"]
-- !private ["PSo16NSObjectProtocol", "publishedDate"]
-- ["PSo16NSObjectProtocol", "subtitle"]
-- ["PSo16NSObjectProtocol", "title"]
-- ["PSo16NSObjectProtocol", ""]
-- !private ["Vs12StaticString", "init"]
-- ["C10CBCNews_AR15StoryAnnotation", "CLLocationCoordinate2D"]
-- ["C10CBCNews_AR15StoryAnnotation", "String"]
-- ["C10CBCNews_AR15StoryAnnotation", "coordinate"]
-- ["C10CBCNews_AR15StoryAnnotation", "deinit"]
-- ["C10CBCNews_AR15StoryAnnotation", "init"]
-- ["C10CBCNews_AR15StoryAnnotation", "publishedDate"]
-- ["C10CBCNews_AR15StoryAnnotation", "subtitle"]
-- ["C10CBCNews_AR15StoryAnnotation", "title"]
-- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
-- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
-- ["Ps9_Hashable", "coordinate"]
-- !private ["Ps9_Hashable", "init"]
-- !private ["Ps9_Hashable", "publishedDate"]
-- ["Ps9_Hashable", "subtitle"]
-- ["Ps9_Hashable", "title"]
-- ["Ps9_Hashable", ""]
 depends-nominal:
-- "Ps9AnyObject"
-- "Ps7CVarArg"
-- "Ps28CustomDebugStringConvertible"
-- !private "Ps17CustomReflectable"
-- "Ps23CustomStringConvertible"
-- "Ps9Equatable"
-- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
-- !private "Ps26ExpressibleByStringLiteral"
-- !private "Ps33ExpressibleByUnicodeScalarLiteral"
-- "Ps8Hashable"
-- "PSo12MKAnnotation"
-- "CSo8NSObject"
-- "PSo16NSObjectProtocol"
-- !private "Vs12StaticString"
-- "C10CBCNews_AR15StoryAnnotation"
-- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
-- !private "Ps34_ExpressibleByBuiltinStringLiteral"
-- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
-- "Ps9_Hashable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
@@ -143,4 +34,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "965ee66197424ccbc1f3bea2f139c78a"
+interface-hash: "d41d8cd98f00b204e9800998ecf8427e"

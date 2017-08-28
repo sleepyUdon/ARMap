@@ -7,6 +7,7 @@ provides-member:
 - ["10CBCNews_AR5StoryC", ""]
 provides-dynamic-lookup:
 - "storyHashtag"
+- "storyImage"
 - "storyLocation"
 - "storyPublishedDate"
 depends-top-level:
@@ -21,32 +22,38 @@ depends-member:
 - ["10CBCNews_AR12ARAnnotationC", "String"]
 - ["10CBCNews_AR12ARAnnotationC", "init"]
 - ["10CBCNews_AR12ARAnnotationC", "storyHashtag"]
+- ["10CBCNews_AR12ARAnnotationC", "storyImage"]
 - ["10CBCNews_AR12ARAnnotationC", "storyLocation"]
 - ["10CBCNews_AR12ARAnnotationC", "storyPublishedDate"]
 - ["10CBCNews_AR12ARAnnotationC", ""]
 - !private ["s9AnyObjectP", "init"]
 - !private ["s9AnyObjectP", "storyHashtag"]
+- !private ["s9AnyObjectP", "storyImage"]
 - !private ["s9AnyObjectP", "storyLocation"]
 - !private ["s9AnyObjectP", "storyPublishedDate"]
 - ["s9AnyObjectP", ""]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "storyHashtag"]
+- !private ["s7CVarArgP", "storyImage"]
 - !private ["s7CVarArgP", "storyLocation"]
 - !private ["s7CVarArgP", "storyPublishedDate"]
 - ["s7CVarArgP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "storyHashtag"]
+- !private ["s28CustomDebugStringConvertibleP", "storyImage"]
 - !private ["s28CustomDebugStringConvertibleP", "storyLocation"]
 - !private ["s28CustomDebugStringConvertibleP", "storyPublishedDate"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "storyHashtag"]
+- !private ["s23CustomStringConvertibleP", "storyImage"]
 - !private ["s23CustomStringConvertibleP", "storyLocation"]
 - !private ["s23CustomStringConvertibleP", "storyPublishedDate"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "storyHashtag"]
+- !private ["s9EquatableP", "storyImage"]
 - !private ["s9EquatableP", "storyLocation"]
 - !private ["s9EquatableP", "storyPublishedDate"]
 - ["s9EquatableP", ""]
@@ -55,6 +62,7 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "storyHashtag"]
+- !private ["s8HashableP", "storyImage"]
 - !private ["s8HashableP", "storyLocation"]
 - !private ["s8HashableP", "storyPublishedDate"]
 - ["s8HashableP", ""]
@@ -62,10 +70,12 @@ depends-member:
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "storyHashtag"]
+- ["So8NSObjectC", "storyImage"]
 - ["So8NSObjectC", "storyLocation"]
 - ["So8NSObjectC", "storyPublishedDate"]
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "storyHashtag"]
+- !private ["So16NSObjectProtocolP", "storyImage"]
 - !private ["So16NSObjectProtocolP", "storyLocation"]
 - !private ["So16NSObjectProtocolP", "storyPublishedDate"]
 - ["So16NSObjectProtocolP", ""]
@@ -75,6 +85,7 @@ depends-member:
 - ["10CBCNews_AR5StoryC", "deinit"]
 - ["10CBCNews_AR5StoryC", "init"]
 - ["10CBCNews_AR5StoryC", "storyHashtag"]
+- ["10CBCNews_AR5StoryC", "storyImage"]
 - ["10CBCNews_AR5StoryC", "storyLocation"]
 - ["10CBCNews_AR5StoryC", "storyPublishedDate"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
@@ -82,6 +93,7 @@ depends-member:
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "storyHashtag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storyImage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "storyLocation"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "storyPublishedDate"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
@@ -138,4 +150,4 @@ depends-external:
 - "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
-interface-hash: "afd6d1bff3045a43e5371f50e077dde7"
+interface-hash: "499545b02474f36eb39c8e0b4511d3e3"

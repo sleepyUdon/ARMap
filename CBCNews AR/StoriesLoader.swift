@@ -11,17 +11,17 @@ import CoreLocation
 
 struct StoriesLoader {
     
-    func loadStories() -> [Story]{
+    func loadStories() -> [StoryAnnotation]{
         
-        var stories = [Story]()
+        var stories = [StoryAnnotation]()
         
-        let story1 = Story(storyLocation: CLLocation(latitude: 43.6458693, longitude: -79.4567279), storyPublishedDate:"July 16, 2016", storyHashtag: "#STORY1")
+        let story1 = StoryAnnotation(storyLocation: CLLocationCoordinate2D(latitude: 43.6458693, longitude: -79.4567279), storyImage: "CBC gem", storyPublishedDate:"July 16, 2016", storyHashtag: "#STORY1")
         stories.append(story1)
         
-        let story2 = Story(storyLocation: CLLocation(latitude: 43.6448015, longitude: -79.388423), storyPublishedDate:"July 16, 2016",storyHashtag: "#STORY2")
+        let story2 = StoryAnnotation(storyLocation: CLLocationCoordinate2D(latitude: 43.6448015, longitude: -79.388423),  storyImage: "CBC gem", storyPublishedDate:"July 16, 2016",storyHashtag: "#STORY2")
         stories.append(story2)
 
-        let story3 = Story(storyLocation: CLLocation(latitude: 43.1450, longitude: -81.3882), storyPublishedDate:"July 16, 2016", storyHashtag: "#STORY3")
+        let story3 = StoryAnnotation(storyLocation: CLLocationCoordinate2D(latitude: 43.1450, longitude: -81.3882),  storyImage: "CBC gem", storyPublishedDate:"July 16, 2016", storyHashtag: "#STORY3")
         stories.append(story3)
         
         return stories

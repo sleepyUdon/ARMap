@@ -8,16 +8,44 @@
 
 import Foundation
 import CoreLocation
+import MapKit
 
 
-class Story: ARAnnotation {
-    var storyHashtag: String
-    var storyPublishedDate: String
-    var storyLocation: CLLocation
+class StoryAnnotation: NSObject, MKAnnotation {
     
-    init(storyLocation: CLLocation, storyPublishedDate: String, storyHashtag: String) {
-        self.storyHashtag = storyHashtag
+        let coordinate: CLLocationCoordinate2D
+        let title: String?
+
+//    var storyHashtag: String
+    var storyPublishedDate: String
+//    var storyLocation: CLLocationCoordinate2D
+    var storyImage: String?
+    
+    init(storyLocation: CLLocationCoordinate2D, storyImage: String, storyPublishedDate: String, storyHashtag: String) {
+        self.title = storyHashtag
+        self.coordinate = storyLocation
         self.storyPublishedDate = storyPublishedDate
-        self.storyLocation = storyLocation
+        self.storyImage = storyImage
+        
+        super.init()
+        
+        
     }
 }
+
+
+//class StoryAnnotation: NSObject, MKAnnotation {
+//    let coordinate: CLLocationCoordinate2D
+//    let title: String?
+//    let image: String?
+//    let publishedDate: String?
+//
+//    init(location: CLLocationCoordinate2D, title: String, image: String, publishedDate: String) {
+//        self.coordinate = location
+//        self.title = title
+//        self.image = image
+//        self.publishedDate = publishedDate
+//
+//        super.init()
+//    }
+//}

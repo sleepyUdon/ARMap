@@ -7,6 +7,7 @@ provides-member:
 - ["10CBCNews_AR15StoryAnnotationC", ""]
 provides-dynamic-lookup:
 - "coordinate"
+- "image"
 - "publishedDate"
 - "title"
 depends-top-level:
@@ -19,18 +20,21 @@ depends-top-level:
 - !private "StringLiteralType"
 depends-member:
 - ["s9AnyObjectP", "coordinate"]
+- !private ["s9AnyObjectP", "image"]
 - !private ["s9AnyObjectP", "init"]
 - !private ["s9AnyObjectP", "publishedDate"]
 - ["s9AnyObjectP", "subtitle"]
 - ["s9AnyObjectP", "title"]
 - ["s9AnyObjectP", ""]
 - ["s7CVarArgP", "coordinate"]
+- !private ["s7CVarArgP", "image"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "publishedDate"]
 - ["s7CVarArgP", "subtitle"]
 - ["s7CVarArgP", "title"]
 - ["s7CVarArgP", ""]
 - ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "publishedDate"]
 - ["s28CustomDebugStringConvertibleP", "subtitle"]
@@ -38,12 +42,14 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s17CustomReflectableP", "init"]
 - ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "image"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "publishedDate"]
 - ["s23CustomStringConvertibleP", "subtitle"]
 - ["s23CustomStringConvertibleP", "title"]
 - ["s23CustomStringConvertibleP", ""]
 - ["s9EquatableP", "coordinate"]
+- !private ["s9EquatableP", "image"]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "publishedDate"]
 - ["s9EquatableP", "subtitle"]
@@ -53,12 +59,14 @@ depends-member:
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - ["s8HashableP", "coordinate"]
+- !private ["s8HashableP", "image"]
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "publishedDate"]
 - ["s8HashableP", "subtitle"]
 - ["s8HashableP", "title"]
 - ["s8HashableP", ""]
 - ["So12MKAnnotationP", "coordinate"]
+- !private ["So12MKAnnotationP", "image"]
 - !private ["So12MKAnnotationP", "publishedDate"]
 - ["So12MKAnnotationP", "subtitle"]
 - ["So12MKAnnotationP", "title"]
@@ -66,12 +74,14 @@ depends-member:
 - ["So8NSObjectC", "CLLocationCoordinate2D"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "coordinate"]
+- ["So8NSObjectC", "image"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "publishedDate"]
 - ["So8NSObjectC", "subtitle"]
 - ["So8NSObjectC", "title"]
 - ["So8NSObjectC", ""]
 - ["So16NSObjectProtocolP", "coordinate"]
+- !private ["So16NSObjectProtocolP", "image"]
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "publishedDate"]
 - ["So16NSObjectProtocolP", "subtitle"]
@@ -82,6 +92,7 @@ depends-member:
 - ["10CBCNews_AR15StoryAnnotationC", "String"]
 - ["10CBCNews_AR15StoryAnnotationC", "coordinate"]
 - ["10CBCNews_AR15StoryAnnotationC", "deinit"]
+- ["10CBCNews_AR15StoryAnnotationC", "image"]
 - ["10CBCNews_AR15StoryAnnotationC", "init"]
 - ["10CBCNews_AR15StoryAnnotationC", "publishedDate"]
 - ["10CBCNews_AR15StoryAnnotationC", "subtitle"]
@@ -90,6 +101,7 @@ depends-member:
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "publishedDate"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "subtitle"]
@@ -148,4 +160,4 @@ depends-external:
 - "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
-interface-hash: "965ee66197424ccbc1f3bea2f139c78a"
+interface-hash: "bbba3f9d503ca6803537448dc5447eeb"

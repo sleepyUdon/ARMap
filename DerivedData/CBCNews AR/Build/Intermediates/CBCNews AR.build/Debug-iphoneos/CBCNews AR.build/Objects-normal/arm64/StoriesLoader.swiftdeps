@@ -7,9 +7,9 @@ provides-member:
 - ["V10CBCNews_AR13StoriesLoader", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "CLLocation"
+- !private "CLLocationCoordinate2D"
 - "StoriesLoader"
-- "Story"
+- "StoryAnnotation"
 - !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
@@ -17,7 +17,7 @@ depends-member:
 - !private ["Sa", "init"]
 - !private ["Ps23BidirectionalCollection", "append"]
 - !private ["Ps23BidirectionalCollection", "init"]
-- !private ["CSo10CLLocation", "init"]
+- !private ["VSC22CLLocationCoordinate2D", "init"]
 - !private ["Ps7CVarArg", "append"]
 - !private ["Ps7CVarArg", "init"]
 - !private ["Ps10Collection", "append"]
@@ -38,13 +38,13 @@ depends-member:
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["Ps8Hashable", "init"]
 - !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["PSo12MKAnnotation", "init"]
 - !private ["Ps10MirrorPath", "init"]
 - !private ["Ps17MutableCollection", "append"]
 - !private ["Ps17MutableCollection", "init"]
 - !private ["PSo8NSCoding", "init"]
 - !private ["PSo9NSCopying", "init"]
 - !private ["PSo16NSMutableCopying", "init"]
-- !private ["CSo8NSObject", "init"]
 - !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
@@ -54,11 +54,11 @@ depends-member:
 - !private ["Ps26RangeReplaceableCollection", "init"]
 - !private ["Ps8Sequence", "append"]
 - !private ["Ps8Sequence", "init"]
-- !private ["V10CBCNews_AR13StoriesLoader", "CLLocation"]
-- ["V10CBCNews_AR13StoriesLoader", "Story"]
+- !private ["V10CBCNews_AR13StoriesLoader", "CLLocationCoordinate2D"]
+- ["V10CBCNews_AR13StoriesLoader", "StoryAnnotation"]
 - ["V10CBCNews_AR13StoriesLoader", "init"]
 - ["V10CBCNews_AR13StoriesLoader", "loadStories"]
-- !private ["C10CBCNews_AR5Story", "init"]
+- !private ["C10CBCNews_AR15StoryAnnotation", "init"]
 - !private ["SS", "init"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
@@ -91,7 +91,7 @@ depends-nominal:
 - !private "Ps9AnyObject"
 - !private "Sa"
 - !private "Ps23BidirectionalCollection"
-- !private "CSo10CLLocation"
+- !private "VSC22CLLocationCoordinate2D"
 - !private "Ps7CVarArg"
 - !private "Ps10Collection"
 - !private "Ps10Comparable"
@@ -106,12 +106,12 @@ depends-nominal:
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
 - !private "Ps8Hashable"
 - !private "Ps25LosslessStringConvertible"
+- !private "PSo12MKAnnotation"
 - !private "Ps10MirrorPath"
 - !private "Ps17MutableCollection"
 - !private "PSo8NSCoding"
 - !private "PSo9NSCopying"
 - !private "PSo16NSMutableCopying"
-- !private "CSo8NSObject"
 - !private "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
@@ -119,7 +119,7 @@ depends-nominal:
 - !private "Ps26RangeReplaceableCollection"
 - !private "Ps8Sequence"
 - "V10CBCNews_AR13StoriesLoader"
-- !private "C10CBCNews_AR5Story"
+- !private "C10CBCNews_AR15StoryAnnotation"
 - !private "SS"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
@@ -167,4 +167,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "5128888460023cabc75171c05f55aa50"
+interface-hash: "b30a056c640da6cf3affcb1021db630e"

@@ -407,6 +407,17 @@ SWIFT_CLASS("_TtC10CBCNews_AR11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
+@class UILabel;
+
+SWIFT_CLASS("_TtC10CBCNews_AR17CustomCalloutView")
+@interface CustomCalloutView : UIView
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified storyImage;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified storyTitle;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class MKMapView;
 @class UILongPressGestureRecognizer;
 
@@ -433,7 +444,8 @@ SWIFT_CLASS("_TtC10CBCNews_AR5Story")
 @property (nonatomic, copy) NSString * _Nonnull storyHashtag;
 @property (nonatomic, copy) NSString * _Nonnull storyPublishedDate;
 @property (nonatomic, strong) CLLocation * _Nonnull storyLocation;
-- (nonnull instancetype)initWithStoryLocation:(CLLocation * _Nonnull)storyLocation storyPublishedDate:(NSString * _Nonnull)storyPublishedDate storyHashtag:(NSString * _Nonnull)storyHashtag OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, copy) NSString * _Nullable storyImage;
+- (nonnull instancetype)initWithStoryLocation:(CLLocation * _Nonnull)storyLocation storyImage:(NSString * _Nonnull)storyImage storyPublishedDate:(NSString * _Nonnull)storyPublishedDate storyHashtag:(NSString * _Nonnull)storyHashtag OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 
@@ -442,20 +454,20 @@ SWIFT_CLASS("_TtC10CBCNews_AR15StoryAnnotation")
 @interface StoryAnnotation : NSObject <MKAnnotation>
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
 @property (nonatomic, readonly, copy) NSString * _Nullable title;
+@property (nonatomic, readonly, copy) NSString * _Nullable image;
 @property (nonatomic, readonly, copy) NSString * _Nullable publishedDate;
-- (nonnull instancetype)initWithLocation:(CLLocationCoordinate2D)location title:(NSString * _Nonnull)title publishedDate:(NSString * _Nonnull)publishedDate OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithLocation:(CLLocationCoordinate2D)location title:(NSString * _Nonnull)title image:(NSString * _Nonnull)image publishedDate:(NSString * _Nonnull)publishedDate OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 
-@class UILabel;
+@class UIEvent;
 
 SWIFT_CLASS("_TtC10CBCNews_AR19StoryAnnotationView")
 @interface StoryAnnotationView : MKAnnotationView
 @property (nonatomic, strong) UILabel * _Nullable titleLabel;
 @property (nonatomic, strong) UILabel * _Nullable distanceLabel;
-- (void)didMoveToSuperview;
-- (void)loadUI;
-- (void)layoutSubviews;
+- (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithAnnotation:(id <MKAnnotation> _Nullable)annotation reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -472,14 +484,17 @@ SWIFT_CLASS("_TtC10CBCNews_AR14ViewController")
 @end
 
 
-@interface ViewController (SWIFT_EXTENSION(CBCNews_AR)) <MKMapViewDelegate>
-- (MKAnnotationView * _Nullable)mapView:(MKMapView * _Nonnull)mapView viewForAnnotation:(id <MKAnnotation> _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
 @interface ViewController (SWIFT_EXTENSION(CBCNews_AR)) <CLLocationManagerDelegate>
 - (BOOL)locationManagerShouldDisplayHeadingCalibration:(CLLocationManager * _Nonnull)manager SWIFT_WARN_UNUSED_RESULT;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+@end
+
+@class UIControl;
+
+@interface ViewController (SWIFT_EXTENSION(CBCNews_AR)) <MKMapViewDelegate>
+- (MKAnnotationView * _Nullable)mapView:(MKMapView * _Nonnull)mapView viewForAnnotation:(id <MKAnnotation> _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
+- (void)mapView:(MKMapView * _Nonnull)mapView annotationView:(MKAnnotationView * _Nonnull)view calloutAccessoryControlTapped:(UIControl * _Nonnull)control;
+- (void)mapView:(MKMapView * _Nonnull)mapView didSelectAnnotationView:(MKAnnotationView * _Nonnull)view;
 @end
 
 SWIFT_MODULE_NAMESPACE_POP
