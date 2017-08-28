@@ -7,46 +7,56 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="StagApp-Medium.ttf">
+            <string>StagApp-Medium</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomCalloutView" customModule="CBCNews_AR" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="300" height="165"/>
+            <rect key="frame" x="0.0" y="0.0" width="296" height="80"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HF6-1M-H5a">
-                    <rect key="frame" x="0.0" y="8" width="135" height="157"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a3u-5u-W8V">
-                    <rect key="frame" x="135" y="0.0" width="165" height="165"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PRh-9G-v0K">
+                    <rect key="frame" x="216" y="0.0" width="80" height="80"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="a3u-5u-W8V" secondAttribute="height" multiplier="1:1" id="FqJ-yH-081"/>
+                        <constraint firstAttribute="width" secondItem="PRh-9G-v0K" secondAttribute="height" multiplier="1:1" id="K1G-Ka-ipN"/>
                     </constraints>
                 </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNb-LR-NCC">
+                    <rect key="frame" x="8" y="8" width="200" height="64"/>
+                    <fontDescription key="fontDescription" name="StagApp-Medium" family="Stag App" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="a3u-5u-W8V" firstAttribute="leading" secondItem="HF6-1M-H5a" secondAttribute="trailing" id="1UY-by-cEE"/>
-                <constraint firstAttribute="bottom" secondItem="a3u-5u-W8V" secondAttribute="bottom" id="9qS-e1-YTo"/>
-                <constraint firstItem="HF6-1M-H5a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BCd-oe-EtR"/>
-                <constraint firstAttribute="trailing" secondItem="a3u-5u-W8V" secondAttribute="trailing" id="CPB-sm-yIR"/>
-                <constraint firstItem="HF6-1M-H5a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" id="egA-av-HrX"/>
-                <constraint firstAttribute="bottom" secondItem="HF6-1M-H5a" secondAttribute="bottom" id="sd4-TW-Kfa"/>
-                <constraint firstItem="a3u-5u-W8V" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wCl-La-q5H"/>
+                <constraint firstAttribute="bottom" secondItem="PRh-9G-v0K" secondAttribute="bottom" id="GNB-gb-aCy"/>
+                <constraint firstItem="PRh-9G-v0K" firstAttribute="leading" secondItem="eNb-LR-NCC" secondAttribute="trailing" constant="8" id="LUb-P8-8zH"/>
+                <constraint firstItem="PRh-9G-v0K" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="g1A-MT-BWh"/>
+                <constraint firstAttribute="bottom" secondItem="eNb-LR-NCC" secondAttribute="bottom" constant="8" id="kXi-Mp-Cz7"/>
+                <constraint firstItem="eNb-LR-NCC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="rMe-oj-4lu"/>
+                <constraint firstAttribute="trailing" secondItem="PRh-9G-v0K" secondAttribute="trailing" id="uGz-zr-fYk"/>
+                <constraint firstItem="eNb-LR-NCC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="vQJ-R8-ifb"/>
             </constraints>
-            <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="storyImage" destination="a3u-5u-W8V" id="iMY-CN-14Y"/>
-                <outlet property="storyTitle" destination="HF6-1M-H5a" id="Blh-dE-4UC"/>
+                <outlet property="storyImage" destination="PRh-9G-v0K" id="rZ7-co-SDX"/>
+                <outlet property="storyTitle" destination="eNb-LR-NCC" id="fcS-0o-WfQ"/>
             </connections>
-            <point key="canvasLocation" x="573" y="267.5"/>
+            <point key="canvasLocation" x="103" y="54"/>
         </view>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MQ1-YH-yn0">
+            <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+            <nil key="textColor"/>
+            <nil key="highlightedColor"/>
+        </label>
     </objects>
 </document>

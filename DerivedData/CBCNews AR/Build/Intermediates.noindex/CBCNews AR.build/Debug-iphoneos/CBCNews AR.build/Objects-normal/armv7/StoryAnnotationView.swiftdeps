@@ -1,0 +1,341 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StoryAnnotationView"
+provides-nominal:
+- "10CBCNews_AR19StoryAnnotationViewC"
+provides-member:
+- ["10CBCNews_AR19StoryAnnotationViewC", ""]
+provides-dynamic-lookup:
+- "distanceLabel"
+- "hitTest"
+- "point"
+- "titleLabel"
+depends-top-level:
+- !private "!"
+- !private "!="
+- "AssignmentPrecedence"
+- "Bool"
+- "CGPoint"
+- "MKAnnotationView"
+- "StoryAnnotationView"
+- "UIEvent"
+- "UILabel"
+- "UIView"
+depends-member:
+- !private ["s9AnyObjectP", "bounds"]
+- !private ["s9AnyObjectP", "bringSubview"]
+- !private ["s9AnyObjectP", "frame"]
+- !private ["s9AnyObjectP", "hitTest"]
+- !private ["s9AnyObjectP", "init"]
+- !private ["s9AnyObjectP", "subviews"]
+- !private ["s9AnyObjectP", "superview"]
+- ["s9AnyObjectP", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So15CALayerDelegateP", "bringSubview"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "hitTest"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "subviews"]
+- !private ["So15CALayerDelegateP", "superview"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So6CGRectV", "contains"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "bringSubview"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "hitTest"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subviews"]
+- !private ["s7CVarArgP", "superview"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "bringSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "hitTest"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subviews"]
+- !private ["s28CustomDebugStringConvertibleP", "superview"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "contains"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "bringSubview"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "hitTest"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subviews"]
+- !private ["s23CustomStringConvertibleP", "superview"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "bounds"]
+- !private ["s9EquatableP", "bringSubview"]
+- !private ["s9EquatableP", "contains"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "hitTest"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "subviews"]
+- !private ["s9EquatableP", "superview"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "bounds"]
+- !private ["s8HashableP", "bringSubview"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "hitTest"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "subviews"]
+- !private ["s8HashableP", "superview"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["So16MKAnnotationViewC", "Bool"]
+- ["So16MKAnnotationViewC", "CGPoint"]
+- ["So16MKAnnotationViewC", "UIEvent"]
+- ["So16MKAnnotationViewC", "UILabel"]
+- ["So16MKAnnotationViewC", "UIView"]
+- !private ["So16MKAnnotationViewC", "bounds"]
+- ["So16MKAnnotationViewC", "distanceLabel"]
+- ["So16MKAnnotationViewC", "hitTest"]
+- ["So16MKAnnotationViewC", "init"]
+- ["So16MKAnnotationViewC", "point"]
+- !private ["So16MKAnnotationViewC", "subviews"]
+- !private ["So16MKAnnotationViewC", "superview"]
+- ["So16MKAnnotationViewC", "titleLabel"]
+- ["So16MKAnnotationViewC", ""]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "bringSubview"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "hitTest"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "subviews"]
+- !private ["So8NSCodingP", "superview"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "UIEvent"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "bringSubview"]
+- ["So8NSObjectC", "distanceLabel"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "hitTest"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "point"]
+- !private ["So8NSObjectC", "subviews"]
+- !private ["So8NSObjectC", "superview"]
+- ["So8NSObjectC", "titleLabel"]
+- !private ["So16NSObjectProtocolP", "bounds"]
+- !private ["So16NSObjectProtocolP", "bringSubview"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "hitTest"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "subviews"]
+- !private ["So16NSObjectProtocolP", "superview"]
+- ["So16NSObjectProtocolP", ""]
+- ["10CBCNews_AR19StoryAnnotationViewC", "Bool"]
+- ["10CBCNews_AR19StoryAnnotationViewC", "CGPoint"]
+- ["10CBCNews_AR19StoryAnnotationViewC", "UIEvent"]
+- ["10CBCNews_AR19StoryAnnotationViewC", "UILabel"]
+- ["10CBCNews_AR19StoryAnnotationViewC", "UIView"]
+- !private ["10CBCNews_AR19StoryAnnotationViewC", "bounds"]
+- ["10CBCNews_AR19StoryAnnotationViewC", "deinit"]
+- ["10CBCNews_AR19StoryAnnotationViewC", "distanceLabel"]
+- ["10CBCNews_AR19StoryAnnotationViewC", "hitTest"]
+- ["10CBCNews_AR19StoryAnnotationViewC", "init"]
+- ["10CBCNews_AR19StoryAnnotationViewC", "point"]
+- !private ["10CBCNews_AR19StoryAnnotationViewC", "subviews"]
+- !private ["10CBCNews_AR19StoryAnnotationViewC", "superview"]
+- ["10CBCNews_AR19StoryAnnotationViewC", "titleLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So29UIAccessibilityIdentificationP", "bringSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "hitTest"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "subviews"]
+- !private ["So29UIAccessibilityIdentificationP", "superview"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So12UIAppearanceP", "bringSubview"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "hitTest"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "subviews"]
+- !private ["So12UIAppearanceP", "superview"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "bringSubview"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "hitTest"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "subviews"]
+- !private ["So21UIAppearanceContainerP", "superview"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So17UICoordinateSpaceP", "bringSubview"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "hitTest"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "subviews"]
+- !private ["So17UICoordinateSpaceP", "superview"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So13UIDynamicItemP", "bringSubview"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "hitTest"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "subviews"]
+- !private ["So13UIDynamicItemP", "superview"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "bringSubview"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "hitTest"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "subviews"]
+- !private ["So18UIFocusEnvironmentP", "superview"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So11UIFocusItemP", "bringSubview"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "hitTest"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "subviews"]
+- !private ["So11UIFocusItemP", "superview"]
+- ["So11UIFocusItemP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "bringSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "hitTest"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "subviews"]
+- !private ["So30UIPasteConfigurationSupportingP", "superview"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CGPoint"]
+- ["So11UIResponderC", "UIEvent"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "bounds"]
+- !private ["So11UIResponderC", "bringSubview"]
+- ["So11UIResponderC", "distanceLabel"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "hitTest"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "point"]
+- !private ["So11UIResponderC", "subviews"]
+- !private ["So11UIResponderC", "superview"]
+- ["So11UIResponderC", "titleLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "bringSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "hitTest"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "subviews"]
+- !private ["So30UIResponderStandardEditActionsP", "superview"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "bringSubview"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "hitTest"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "subviews"]
+- !private ["So18UITraitEnvironmentP", "superview"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "CGPoint"]
+- ["So6UIViewC", "UIEvent"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "UIView"]
+- !private ["So6UIViewC", "bounds"]
+- !private ["So6UIViewC", "bringSubview"]
+- ["So6UIViewC", "distanceLabel"]
+- !private ["So6UIViewC", "frame"]
+- ["So6UIViewC", "hitTest"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "point"]
+- !private ["So6UIViewC", "subviews"]
+- !private ["So6UIViewC", "superview"]
+- ["So6UIViewC", "titleLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bringSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "hitTest"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "subviews"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "superview"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bringSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hitTest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subviews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "superview"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+depends-nominal:
+- "s9AnyObjectP"
+- !private "Sb"
+- "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "So16MKAnnotationViewC"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "10CBCNews_AR19StoryAnnotationViewC"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/simd.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/MapKit.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+interface-hash: "0fe38753e2941ffd0310ea85fd847851"

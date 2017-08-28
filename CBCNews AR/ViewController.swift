@@ -36,7 +36,7 @@ extension ViewController: MKMapViewDelegate {
         let annotationView = StoryAnnotationView(annotation:annotation, reuseIdentifier:"")
         annotationView.isEnabled = true
         annotationView.canShowCallout = true
-        annotationView.image = #imageLiteral(resourceName: "mapPin")
+        annotationView.image = #imageLiteral(resourceName: "CBC gem")
 
         let btn = UIButton(type: .detailDisclosure)
         annotationView.rightCalloutAccessoryView = btn
@@ -46,11 +46,6 @@ extension ViewController: MKMapViewDelegate {
 
     public func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         print("tapped")
-    }
-    
-    func mapView(_ mapView: MKMapView,
-                 didSelect view: MKAnnotationView)
-    {
         // 1
         if view.annotation is MKUserLocation
         {
@@ -63,15 +58,16 @@ extension ViewController: MKMapViewDelegate {
         let calloutView = views?[0] as! CustomCalloutView
         calloutView.storyImage.image = UIImage(named: storyAnnotation.storyImage!)
         calloutView.storyTitle.text = storyAnnotation.title
-//        let button = UIButton(frame: calloutView.starbucksPhone.frame)
-//        button.addTarget(self, action: #selector(ViewController.callPhoneNumber(sender:)), for: .touchUpInside)
-//        calloutView.addSubview(button)
+        //        let button = UIButton(frame: calloutView.starbucksPhone.frame)
+        //        button.addTarget(self, action: #selector(ViewController.callPhoneNumber(sender:)), for: .touchUpInside)
+        //        calloutView.addSubview(button)
         // 3
         calloutView.center = CGPoint(x: view.bounds.size.width / 2, y: -calloutView.bounds.size.height*0.52)
         view.addSubview(calloutView)
         mapView.setCenter((view.annotation?.coordinate)!, animated: true)
-    }
 
+    }
+    
 }
 
 extension ViewController: CLLocationManagerDelegate {

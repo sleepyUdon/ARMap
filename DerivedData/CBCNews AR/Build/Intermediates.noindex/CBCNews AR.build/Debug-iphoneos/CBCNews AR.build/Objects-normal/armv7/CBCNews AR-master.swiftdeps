@@ -1,0 +1,17 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.45.6 clang-900.0.26)"
+options: "333787b36a2f7ce71e21b8ad7c57a745"
+build_time: [1503944795, 548454000]
+inputs:
+  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/StoryAnnotation.swift": [1503944265, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/HDAugmentedReality/Classes/ARTrackingManager.swift": [1503944265, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/HDAugmentedReality/Classes/ARAnnotation.swift": [1503944265, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/HDAugmentedReality/Classes/ARAnnotationView.swift": [1503944265, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/ViewController.swift": [1503944265, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/AppDelegate.swift": [1503754248, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/Story.swift": [1503944265, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/CustomCalloutView.swift": [1503941437, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/HDAugmentedReality/Classes/Debug/DebugMapViewController.swift": [1503944265, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/StoriesLoader.swift": [1503944637, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/HDAugmentedReality/Classes/ARConfiguration.swift": [1503944265, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/StoryAnnotationView.swift": [1503943605, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/HDAugmentedReality/Classes/ARViewController.swift": [1503944265, 0]

@@ -26,7 +26,6 @@ depends-top-level:
 - !private "Bundle"
 - !private "CGPoint"
 - "CLLocation"
-- !private "CLLocationCoordinate2D"
 - "CLLocationManager"
 - "CLLocationManagerDelegate"
 - "CastingPrecedence"
@@ -40,8 +39,7 @@ depends-top-level:
 - !private "MKUserLocation"
 - !private "MKUserTrackingMode"
 - !private "StoriesLoader"
-- "Story"
-- !private "StoryAnnotation"
+- "StoryAnnotation"
 - !private "StoryAnnotationView"
 - !private "StringLiteralType"
 - !private "UIButton"
@@ -53,10 +51,6 @@ depends-top-level:
 - !private "kCLLocationAccuracyBest"
 - !private "print"
 depends-member:
-- !private ["10CBCNews_AR12ARAnnotationC", "storyHashtag"]
-- !private ["10CBCNews_AR12ARAnnotationC", "storyImage"]
-- !private ["10CBCNews_AR12ARAnnotationC", "storyLocation"]
-- !private ["10CBCNews_AR12ARAnnotationC", "storyPublishedDate"]
 - !private ["s9AnyObjectP", "Bundle"]
 - !private ["s9AnyObjectP", "CGPoint"]
 - ["s9AnyObjectP", "CLLocationManager"]
@@ -64,8 +58,7 @@ depends-member:
 - !private ["s9AnyObjectP", "MKCoordinateSpan"]
 - !private ["s9AnyObjectP", "MKUserTrackingMode"]
 - !private ["s9AnyObjectP", "StoriesLoader"]
-- ["s9AnyObjectP", "Story"]
-- !private ["s9AnyObjectP", "StoryAnnotation"]
+- ["s9AnyObjectP", "StoryAnnotation"]
 - !private ["s9AnyObjectP", "StoryAnnotationView"]
 - !private ["s9AnyObjectP", "UIButton"]
 - !private ["s9AnyObjectP", "UIImage"]
@@ -106,9 +99,7 @@ depends-member:
 - !private ["s9AnyObjectP", "startedLoadingPOIs"]
 - !private ["s9AnyObjectP", "stopUpdatingLocation"]
 - !private ["s9AnyObjectP", "stories"]
-- !private ["s9AnyObjectP", "storyHashtag"]
 - !private ["s9AnyObjectP", "storyImage"]
-- !private ["s9AnyObjectP", "storyLocation"]
 - !private ["s9AnyObjectP", "storyPublishedDate"]
 - !private ["s9AnyObjectP", "storyTitle"]
 - !private ["s9AnyObjectP", "text"]
@@ -162,8 +153,7 @@ depends-member:
 - !private ["So25CLLocationManagerDelegateP", "MKCoordinateSpan"]
 - !private ["So25CLLocationManagerDelegateP", "MKUserTrackingMode"]
 - !private ["So25CLLocationManagerDelegateP", "StoriesLoader"]
-- ["So25CLLocationManagerDelegateP", "Story"]
-- !private ["So25CLLocationManagerDelegateP", "StoryAnnotation"]
+- ["So25CLLocationManagerDelegateP", "StoryAnnotation"]
 - !private ["So25CLLocationManagerDelegateP", "StoryAnnotationView"]
 - !private ["So25CLLocationManagerDelegateP", "UIButton"]
 - !private ["So25CLLocationManagerDelegateP", "UIImage"]
@@ -191,8 +181,7 @@ depends-member:
 - !private ["s7CVarArgP", "MKCoordinateSpan"]
 - !private ["s7CVarArgP", "MKUserTrackingMode"]
 - !private ["s7CVarArgP", "StoriesLoader"]
-- ["s7CVarArgP", "Story"]
-- !private ["s7CVarArgP", "StoryAnnotation"]
+- ["s7CVarArgP", "StoryAnnotation"]
 - !private ["s7CVarArgP", "StoryAnnotationView"]
 - !private ["s7CVarArgP", "UIButton"]
 - !private ["s7CVarArgP", "UIImage"]
@@ -235,9 +224,7 @@ depends-member:
 - !private ["s7CVarArgP", "startedLoadingPOIs"]
 - !private ["s7CVarArgP", "stopUpdatingLocation"]
 - !private ["s7CVarArgP", "stories"]
-- !private ["s7CVarArgP", "storyHashtag"]
 - !private ["s7CVarArgP", "storyImage"]
-- !private ["s7CVarArgP", "storyLocation"]
 - !private ["s7CVarArgP", "storyPublishedDate"]
 - !private ["s7CVarArgP", "storyTitle"]
 - !private ["s7CVarArgP", "subscript"]
@@ -263,8 +250,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "MKCoordinateSpan"]
 - !private ["s28CustomDebugStringConvertibleP", "MKUserTrackingMode"]
 - !private ["s28CustomDebugStringConvertibleP", "StoriesLoader"]
-- ["s28CustomDebugStringConvertibleP", "Story"]
-- !private ["s28CustomDebugStringConvertibleP", "StoryAnnotation"]
+- ["s28CustomDebugStringConvertibleP", "StoryAnnotation"]
 - !private ["s28CustomDebugStringConvertibleP", "StoryAnnotationView"]
 - !private ["s28CustomDebugStringConvertibleP", "UIButton"]
 - !private ["s28CustomDebugStringConvertibleP", "UIImage"]
@@ -309,9 +295,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "startedLoadingPOIs"]
 - !private ["s28CustomDebugStringConvertibleP", "stopUpdatingLocation"]
 - !private ["s28CustomDebugStringConvertibleP", "stories"]
-- !private ["s28CustomDebugStringConvertibleP", "storyHashtag"]
 - !private ["s28CustomDebugStringConvertibleP", "storyImage"]
-- !private ["s28CustomDebugStringConvertibleP", "storyLocation"]
 - !private ["s28CustomDebugStringConvertibleP", "storyPublishedDate"]
 - !private ["s28CustomDebugStringConvertibleP", "storyTitle"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
@@ -341,8 +325,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "MKCoordinateSpan"]
 - !private ["s23CustomStringConvertibleP", "MKUserTrackingMode"]
 - !private ["s23CustomStringConvertibleP", "StoriesLoader"]
-- ["s23CustomStringConvertibleP", "Story"]
-- !private ["s23CustomStringConvertibleP", "StoryAnnotation"]
+- ["s23CustomStringConvertibleP", "StoryAnnotation"]
 - !private ["s23CustomStringConvertibleP", "StoryAnnotationView"]
 - !private ["s23CustomStringConvertibleP", "UIButton"]
 - !private ["s23CustomStringConvertibleP", "UIImage"]
@@ -386,9 +369,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "startedLoadingPOIs"]
 - !private ["s23CustomStringConvertibleP", "stopUpdatingLocation"]
 - !private ["s23CustomStringConvertibleP", "stories"]
-- !private ["s23CustomStringConvertibleP", "storyHashtag"]
 - !private ["s23CustomStringConvertibleP", "storyImage"]
-- !private ["s23CustomStringConvertibleP", "storyLocation"]
 - !private ["s23CustomStringConvertibleP", "storyPublishedDate"]
 - !private ["s23CustomStringConvertibleP", "storyTitle"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
@@ -414,8 +395,7 @@ depends-member:
 - !private ["s9EquatableP", "MKCoordinateSpan"]
 - !private ["s9EquatableP", "MKUserTrackingMode"]
 - !private ["s9EquatableP", "StoriesLoader"]
-- ["s9EquatableP", "Story"]
-- !private ["s9EquatableP", "StoryAnnotation"]
+- ["s9EquatableP", "StoryAnnotation"]
 - !private ["s9EquatableP", "StoryAnnotationView"]
 - !private ["s9EquatableP", "UIButton"]
 - !private ["s9EquatableP", "UIImage"]
@@ -461,9 +441,7 @@ depends-member:
 - !private ["s9EquatableP", "startedLoadingPOIs"]
 - !private ["s9EquatableP", "stopUpdatingLocation"]
 - !private ["s9EquatableP", "stories"]
-- !private ["s9EquatableP", "storyHashtag"]
 - !private ["s9EquatableP", "storyImage"]
-- !private ["s9EquatableP", "storyLocation"]
 - !private ["s9EquatableP", "storyPublishedDate"]
 - !private ["s9EquatableP", "storyTitle"]
 - !private ["s9EquatableP", "text"]
@@ -487,8 +465,7 @@ depends-member:
 - !private ["s8HashableP", "MKCoordinateSpan"]
 - !private ["s8HashableP", "MKUserTrackingMode"]
 - !private ["s8HashableP", "StoriesLoader"]
-- ["s8HashableP", "Story"]
-- !private ["s8HashableP", "StoryAnnotation"]
+- ["s8HashableP", "StoryAnnotation"]
 - !private ["s8HashableP", "StoryAnnotationView"]
 - !private ["s8HashableP", "UIButton"]
 - !private ["s8HashableP", "UIImage"]
@@ -532,9 +509,7 @@ depends-member:
 - !private ["s8HashableP", "startedLoadingPOIs"]
 - !private ["s8HashableP", "stopUpdatingLocation"]
 - !private ["s8HashableP", "stories"]
-- !private ["s8HashableP", "storyHashtag"]
 - !private ["s8HashableP", "storyImage"]
-- !private ["s8HashableP", "storyLocation"]
 - !private ["s8HashableP", "storyPublishedDate"]
 - !private ["s8HashableP", "storyTitle"]
 - !private ["s8HashableP", "text"]
@@ -545,8 +520,9 @@ depends-member:
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["So12MKAnnotationP", "coordinate"]
-- !private ["So12MKAnnotationP", "image"]
 - !private ["So12MKAnnotationP", "init"]
+- !private ["So12MKAnnotationP", "storyImage"]
+- !private ["So12MKAnnotationP", "storyPublishedDate"]
 - !private ["So12MKAnnotationP", "title"]
 - !private ["So16MKAnnotationViewC", "addSubview"]
 - !private ["So16MKAnnotationViewC", "annotation"]
@@ -569,8 +545,7 @@ depends-member:
 - !private ["So17MKMapViewDelegateP", "MKCoordinateSpan"]
 - !private ["So17MKMapViewDelegateP", "MKUserTrackingMode"]
 - !private ["So17MKMapViewDelegateP", "StoriesLoader"]
-- ["So17MKMapViewDelegateP", "Story"]
-- !private ["So17MKMapViewDelegateP", "StoryAnnotation"]
+- ["So17MKMapViewDelegateP", "StoryAnnotation"]
 - !private ["So17MKMapViewDelegateP", "StoryAnnotationView"]
 - !private ["So17MKMapViewDelegateP", "UIButton"]
 - !private ["So17MKMapViewDelegateP", "UIImage"]
@@ -604,8 +579,7 @@ depends-member:
 - !private ["So8NSCodingP", "MKCoordinateSpan"]
 - !private ["So8NSCodingP", "MKUserTrackingMode"]
 - !private ["So8NSCodingP", "StoriesLoader"]
-- ["So8NSCodingP", "Story"]
-- !private ["So8NSCodingP", "StoryAnnotation"]
+- ["So8NSCodingP", "StoryAnnotation"]
 - !private ["So8NSCodingP", "StoryAnnotationView"]
 - !private ["So8NSCodingP", "UIButton"]
 - !private ["So8NSCodingP", "UIImage"]
@@ -655,8 +629,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "MKCoordinateSpan"]
 - !private ["So26NSExtensionRequestHandlingP", "MKUserTrackingMode"]
 - !private ["So26NSExtensionRequestHandlingP", "StoriesLoader"]
-- ["So26NSExtensionRequestHandlingP", "Story"]
-- !private ["So26NSExtensionRequestHandlingP", "StoryAnnotation"]
+- ["So26NSExtensionRequestHandlingP", "StoryAnnotation"]
 - !private ["So26NSExtensionRequestHandlingP", "StoryAnnotationView"]
 - !private ["So26NSExtensionRequestHandlingP", "UIButton"]
 - !private ["So26NSExtensionRequestHandlingP", "UIImage"]
@@ -687,7 +660,6 @@ depends-member:
 - !private ["So8NSObjectC", "Bundle"]
 - !private ["So8NSObjectC", "CGPoint"]
 - ["So8NSObjectC", "CLLocation"]
-- !private ["So8NSObjectC", "CLLocationCoordinate2D"]
 - ["So8NSObjectC", "CLLocationManager"]
 - !private ["So8NSObjectC", "CustomCalloutView"]
 - ["So8NSObjectC", "MKAnnotation"]
@@ -698,8 +670,7 @@ depends-member:
 - !private ["So8NSObjectC", "MKUserLocation"]
 - !private ["So8NSObjectC", "MKUserTrackingMode"]
 - !private ["So8NSObjectC", "StoriesLoader"]
-- ["So8NSObjectC", "Story"]
-- !private ["So8NSObjectC", "StoryAnnotation"]
+- ["So8NSObjectC", "StoryAnnotation"]
 - !private ["So8NSObjectC", "StoryAnnotationView"]
 - !private ["So8NSObjectC", "UIButton"]
 - ["So8NSObjectC", "UIControl"]
@@ -742,9 +713,7 @@ depends-member:
 - ["So8NSObjectC", "startedLoadingPOIs"]
 - !private ["So8NSObjectC", "stopUpdatingLocation"]
 - ["So8NSObjectC", "stories"]
-- !private ["So8NSObjectC", "storyHashtag"]
 - !private ["So8NSObjectC", "storyImage"]
-- !private ["So8NSObjectC", "storyLocation"]
 - !private ["So8NSObjectC", "storyPublishedDate"]
 - !private ["So8NSObjectC", "storyTitle"]
 - !private ["So8NSObjectC", "text"]
@@ -758,8 +727,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "MKCoordinateSpan"]
 - !private ["So16NSObjectProtocolP", "MKUserTrackingMode"]
 - !private ["So16NSObjectProtocolP", "StoriesLoader"]
-- ["So16NSObjectProtocolP", "Story"]
-- !private ["So16NSObjectProtocolP", "StoryAnnotation"]
+- ["So16NSObjectProtocolP", "StoryAnnotation"]
 - !private ["So16NSObjectProtocolP", "StoryAnnotationView"]
 - !private ["So16NSObjectProtocolP", "UIButton"]
 - !private ["So16NSObjectProtocolP", "UIImage"]
@@ -800,9 +768,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "startedLoadingPOIs"]
 - !private ["So16NSObjectProtocolP", "stopUpdatingLocation"]
 - !private ["So16NSObjectProtocolP", "stories"]
-- !private ["So16NSObjectProtocolP", "storyHashtag"]
 - !private ["So16NSObjectProtocolP", "storyImage"]
-- !private ["So16NSObjectProtocolP", "storyLocation"]
 - !private ["So16NSObjectProtocolP", "storyPublishedDate"]
 - !private ["So16NSObjectProtocolP", "storyTitle"]
 - !private ["So16NSObjectProtocolP", "text"]
@@ -830,13 +796,11 @@ depends-member:
 - !private ["s8SequenceP", "subscript"]
 - !private ["10CBCNews_AR13StoriesLoaderV", "init"]
 - !private ["10CBCNews_AR13StoriesLoaderV", "loadStories"]
-- !private ["10CBCNews_AR5StoryC", "storyHashtag"]
-- !private ["10CBCNews_AR5StoryC", "storyImage"]
-- !private ["10CBCNews_AR5StoryC", "storyLocation"]
-- !private ["10CBCNews_AR5StoryC", "storyPublishedDate"]
+- !private ["10CBCNews_AR15StoryAnnotationC", "coordinate"]
 - !private ["10CBCNews_AR15StoryAnnotationC", "deinit"]
-- !private ["10CBCNews_AR15StoryAnnotationC", "image"]
 - !private ["10CBCNews_AR15StoryAnnotationC", "init"]
+- !private ["10CBCNews_AR15StoryAnnotationC", "storyImage"]
+- !private ["10CBCNews_AR15StoryAnnotationC", "storyPublishedDate"]
 - !private ["10CBCNews_AR15StoryAnnotationC", "title"]
 - !private ["10CBCNews_AR19StoryAnnotationViewC", "canShowCallout"]
 - !private ["10CBCNews_AR19StoryAnnotationViewC", "image"]
@@ -888,8 +852,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "MKCoordinateSpan"]
 - !private ["So21UIAppearanceContainerP", "MKUserTrackingMode"]
 - !private ["So21UIAppearanceContainerP", "StoriesLoader"]
-- ["So21UIAppearanceContainerP", "Story"]
-- !private ["So21UIAppearanceContainerP", "StoryAnnotation"]
+- ["So21UIAppearanceContainerP", "StoryAnnotation"]
 - !private ["So21UIAppearanceContainerP", "StoryAnnotationView"]
 - !private ["So21UIAppearanceContainerP", "UIButton"]
 - !private ["So21UIAppearanceContainerP", "UIImage"]
@@ -936,8 +899,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "MKCoordinateSpan"]
 - !private ["So18UIContentContainerP", "MKUserTrackingMode"]
 - !private ["So18UIContentContainerP", "StoriesLoader"]
-- ["So18UIContentContainerP", "Story"]
-- !private ["So18UIContentContainerP", "StoryAnnotation"]
+- ["So18UIContentContainerP", "StoryAnnotation"]
 - !private ["So18UIContentContainerP", "StoryAnnotationView"]
 - !private ["So18UIContentContainerP", "UIButton"]
 - !private ["So18UIContentContainerP", "UIImage"]
@@ -1001,8 +963,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "MKCoordinateSpan"]
 - !private ["So18UIFocusEnvironmentP", "MKUserTrackingMode"]
 - !private ["So18UIFocusEnvironmentP", "StoriesLoader"]
-- ["So18UIFocusEnvironmentP", "Story"]
-- !private ["So18UIFocusEnvironmentP", "StoryAnnotation"]
+- ["So18UIFocusEnvironmentP", "StoryAnnotation"]
 - !private ["So18UIFocusEnvironmentP", "StoryAnnotationView"]
 - !private ["So18UIFocusEnvironmentP", "UIButton"]
 - !private ["So18UIFocusEnvironmentP", "UIImage"]
@@ -1066,8 +1027,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "MKCoordinateSpan"]
 - !private ["So30UIPasteConfigurationSupportingP", "MKUserTrackingMode"]
 - !private ["So30UIPasteConfigurationSupportingP", "StoriesLoader"]
-- ["So30UIPasteConfigurationSupportingP", "Story"]
-- !private ["So30UIPasteConfigurationSupportingP", "StoryAnnotation"]
+- ["So30UIPasteConfigurationSupportingP", "StoryAnnotation"]
 - !private ["So30UIPasteConfigurationSupportingP", "StoryAnnotationView"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIButton"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
@@ -1110,7 +1070,6 @@ depends-member:
 - !private ["So11UIResponderC", "Bundle"]
 - !private ["So11UIResponderC", "CGPoint"]
 - ["So11UIResponderC", "CLLocation"]
-- !private ["So11UIResponderC", "CLLocationCoordinate2D"]
 - ["So11UIResponderC", "CLLocationManager"]
 - !private ["So11UIResponderC", "CustomCalloutView"]
 - ["So11UIResponderC", "MKAnnotation"]
@@ -1121,8 +1080,7 @@ depends-member:
 - !private ["So11UIResponderC", "MKUserLocation"]
 - !private ["So11UIResponderC", "MKUserTrackingMode"]
 - !private ["So11UIResponderC", "StoriesLoader"]
-- ["So11UIResponderC", "Story"]
-- !private ["So11UIResponderC", "StoryAnnotation"]
+- ["So11UIResponderC", "StoryAnnotation"]
 - !private ["So11UIResponderC", "StoryAnnotationView"]
 - !private ["So11UIResponderC", "UIButton"]
 - ["So11UIResponderC", "UIControl"]
@@ -1168,8 +1126,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "MKCoordinateSpan"]
 - !private ["So30UIResponderStandardEditActionsP", "MKUserTrackingMode"]
 - !private ["So30UIResponderStandardEditActionsP", "StoriesLoader"]
-- ["So30UIResponderStandardEditActionsP", "Story"]
-- !private ["So30UIResponderStandardEditActionsP", "StoryAnnotation"]
+- ["So30UIResponderStandardEditActionsP", "StoryAnnotation"]
 - !private ["So30UIResponderStandardEditActionsP", "StoryAnnotationView"]
 - !private ["So30UIResponderStandardEditActionsP", "UIButton"]
 - !private ["So30UIResponderStandardEditActionsP", "UIImage"]
@@ -1215,8 +1172,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "MKCoordinateSpan"]
 - !private ["So16UIStateRestoringP", "MKUserTrackingMode"]
 - !private ["So16UIStateRestoringP", "StoriesLoader"]
-- ["So16UIStateRestoringP", "Story"]
-- !private ["So16UIStateRestoringP", "StoryAnnotation"]
+- ["So16UIStateRestoringP", "StoryAnnotation"]
 - !private ["So16UIStateRestoringP", "StoryAnnotationView"]
 - !private ["So16UIStateRestoringP", "UIButton"]
 - !private ["So16UIStateRestoringP", "UIImage"]
@@ -1246,8 +1202,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "MKCoordinateSpan"]
 - !private ["So18UITraitEnvironmentP", "MKUserTrackingMode"]
 - !private ["So18UITraitEnvironmentP", "StoriesLoader"]
-- ["So18UITraitEnvironmentP", "Story"]
-- !private ["So18UITraitEnvironmentP", "StoryAnnotation"]
+- ["So18UITraitEnvironmentP", "StoryAnnotation"]
 - !private ["So18UITraitEnvironmentP", "StoryAnnotationView"]
 - !private ["So18UITraitEnvironmentP", "UIButton"]
 - !private ["So18UITraitEnvironmentP", "UIImage"]
@@ -1306,7 +1261,6 @@ depends-member:
 - !private ["So16UIViewControllerC", "Bundle"]
 - !private ["So16UIViewControllerC", "CGPoint"]
 - ["So16UIViewControllerC", "CLLocation"]
-- !private ["So16UIViewControllerC", "CLLocationCoordinate2D"]
 - ["So16UIViewControllerC", "CLLocationManager"]
 - !private ["So16UIViewControllerC", "CustomCalloutView"]
 - ["So16UIViewControllerC", "MKAnnotation"]
@@ -1317,8 +1271,7 @@ depends-member:
 - !private ["So16UIViewControllerC", "MKUserLocation"]
 - !private ["So16UIViewControllerC", "MKUserTrackingMode"]
 - !private ["So16UIViewControllerC", "StoriesLoader"]
-- ["So16UIViewControllerC", "Story"]
-- !private ["So16UIViewControllerC", "StoryAnnotation"]
+- ["So16UIViewControllerC", "StoryAnnotation"]
 - !private ["So16UIViewControllerC", "StoryAnnotationView"]
 - !private ["So16UIViewControllerC", "UIButton"]
 - ["So16UIViewControllerC", "UIControl"]
@@ -1348,7 +1301,6 @@ depends-member:
 - !private ["10CBCNews_AR14ViewControllerC", "Bundle"]
 - !private ["10CBCNews_AR14ViewControllerC", "CGPoint"]
 - ["10CBCNews_AR14ViewControllerC", "CLLocation"]
-- !private ["10CBCNews_AR14ViewControllerC", "CLLocationCoordinate2D"]
 - ["10CBCNews_AR14ViewControllerC", "CLLocationManager"]
 - !private ["10CBCNews_AR14ViewControllerC", "CustomCalloutView"]
 - ["10CBCNews_AR14ViewControllerC", "MKAnnotation"]
@@ -1359,8 +1311,7 @@ depends-member:
 - !private ["10CBCNews_AR14ViewControllerC", "MKUserLocation"]
 - !private ["10CBCNews_AR14ViewControllerC", "MKUserTrackingMode"]
 - !private ["10CBCNews_AR14ViewControllerC", "StoriesLoader"]
-- ["10CBCNews_AR14ViewControllerC", "Story"]
-- !private ["10CBCNews_AR14ViewControllerC", "StoryAnnotation"]
+- ["10CBCNews_AR14ViewControllerC", "StoryAnnotation"]
 - !private ["10CBCNews_AR14ViewControllerC", "StoryAnnotationView"]
 - !private ["10CBCNews_AR14ViewControllerC", "UIButton"]
 - ["10CBCNews_AR14ViewControllerC", "UIControl"]
@@ -1436,8 +1387,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "MKCoordinateSpan"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "MKUserTrackingMode"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "StoriesLoader"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "Story"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "StoryAnnotation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "StoryAnnotation"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "StoryAnnotationView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIButton"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
@@ -1478,9 +1428,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "startedLoadingPOIs"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "stopUpdatingLocation"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "stories"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "storyHashtag"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "storyImage"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "storyLocation"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "storyPublishedDate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "storyTitle"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
@@ -1511,7 +1459,6 @@ depends-member:
 - !private ["s25_RangeSubscriptableStringP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
-- !private "10CBCNews_AR12ARAnnotationC"
 - "s9AnyObjectP"
 - "Sa"
 - "s23BidirectionalCollectionP"
@@ -1566,7 +1513,6 @@ depends-nominal:
 - !private "s16RawRepresentableP"
 - "s8SequenceP"
 - !private "10CBCNews_AR13StoriesLoaderV"
-- !private "10CBCNews_AR5StoryC"
 - !private "10CBCNews_AR15StoryAnnotationC"
 - !private "10CBCNews_AR19StoryAnnotationViewC"
 - !private "SS"
@@ -1640,16 +1586,4 @@ depends-external:
 - "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
 - "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
 - "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
-- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
-- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
-- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
-interface-hash: "e410b5a42220b569c40b58abb9f007cd"
+interface-hash: "5cb66dbec3f3fdd5f81019a89ae4f8f7"

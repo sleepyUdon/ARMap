@@ -439,24 +439,13 @@ SWIFT_CLASS("_TtC10CBCNews_AR22DebugMapViewController")
 @end
 
 
-SWIFT_CLASS("_TtC10CBCNews_AR5Story")
-@interface Story : ARAnnotation
-@property (nonatomic, copy) NSString * _Nonnull storyHashtag;
-@property (nonatomic, copy) NSString * _Nonnull storyPublishedDate;
-@property (nonatomic, strong) CLLocation * _Nonnull storyLocation;
-@property (nonatomic, copy) NSString * _Nullable storyImage;
-- (nonnull instancetype)initWithStoryLocation:(CLLocation * _Nonnull)storyLocation storyImage:(NSString * _Nonnull)storyImage storyPublishedDate:(NSString * _Nonnull)storyPublishedDate storyHashtag:(NSString * _Nonnull)storyHashtag OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-@end
-
-
 SWIFT_CLASS("_TtC10CBCNews_AR15StoryAnnotation")
 @interface StoryAnnotation : NSObject <MKAnnotation>
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
 @property (nonatomic, readonly, copy) NSString * _Nullable title;
-@property (nonatomic, readonly, copy) NSString * _Nullable image;
-@property (nonatomic, readonly, copy) NSString * _Nullable publishedDate;
-- (nonnull instancetype)initWithLocation:(CLLocationCoordinate2D)location title:(NSString * _Nonnull)title image:(NSString * _Nonnull)image publishedDate:(NSString * _Nonnull)publishedDate OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, copy) NSString * _Nonnull storyPublishedDate;
+@property (nonatomic, copy) NSString * _Nullable storyImage;
+- (nonnull instancetype)initWithStoryLocation:(CLLocationCoordinate2D)storyLocation storyImage:(NSString * _Nonnull)storyImage storyPublishedDate:(NSString * _Nonnull)storyPublishedDate storyHashtag:(NSString * _Nonnull)storyHashtag OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 

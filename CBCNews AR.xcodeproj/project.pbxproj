@@ -17,10 +17,10 @@
 		7CAB725F1F5488C5007378C1 /* hdar_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAB72551F5488C5007378C1 /* hdar_close.png */; };
 		7CAB72601F5488C5007378C1 /* hdar_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAB72561F5488C5007378C1 /* hdar_close@2x.png */; };
 		7CAB72611F5488C5007378C1 /* hdar_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAB72571F5488C5007378C1 /* hdar_close@3x.png */; };
-		7CAB72631F548980007378C1 /* CustomCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CAB72621F548980007378C1 /* CustomCalloutView.xib */; };
 		7CAB72651F548991007378C1 /* CustomCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB72641F548990007378C1 /* CustomCalloutView.swift */; };
 		7CBEBC211F51AEFC004A71F6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBEBC201F51AEFC004A71F6 /* MapKit.framework */; };
 		7CBEBC231F545879004A71F6 /* StoryAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBEBC221F545879004A71F6 /* StoryAnnotationView.swift */; };
+		7CE054831F5498B3004645B3 /* CustomCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CE054821F5498B3004645B3 /* CustomCalloutView.xib */; };
 		7CFA5BD81F51A29100F69830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5BD71F51A29100F69830 /* AppDelegate.swift */; };
 		7CFA5BDA1F51A29100F69830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5BD91F51A29100F69830 /* ViewController.swift */; };
 		7CFA5BDD1F51A29100F69830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA5BDB1F51A29100F69830 /* Main.storyboard */; };
@@ -61,10 +61,12 @@
 		7CAB72551F5488C5007378C1 /* hdar_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hdar_close.png; sourceTree = "<group>"; };
 		7CAB72561F5488C5007378C1 /* hdar_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@2x.png"; sourceTree = "<group>"; };
 		7CAB72571F5488C5007378C1 /* hdar_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@3x.png"; sourceTree = "<group>"; };
-		7CAB72621F548980007378C1 /* CustomCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCalloutView.xib; sourceTree = "<group>"; };
 		7CAB72641F548990007378C1 /* CustomCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCalloutView.swift; sourceTree = "<group>"; };
 		7CBEBC201F51AEFC004A71F6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7CBEBC221F545879004A71F6 /* StoryAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryAnnotationView.swift; sourceTree = "<group>"; };
+		7CE0547E1F5497BF004645B3 /* StagApp-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "StagApp-Bold.ttf"; sourceTree = "<group>"; };
+		7CE0547F1F5497BF004645B3 /* StagApp-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "StagApp-Medium.ttf"; sourceTree = "<group>"; };
+		7CE054821F5498B3004645B3 /* CustomCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCalloutView.xib; sourceTree = "<group>"; };
 		7CFA5BD41F51A29100F69830 /* CBCNews AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CBCNews AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFA5BD71F51A29100F69830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CFA5BD91F51A29100F69830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -190,7 +192,9 @@
 				7CAB724A1F5488C5007378C1 /* HDAugmentedReality */,
 				7CFA5C071F51A2F800F69830 /* Model */,
 				7CFA5BDB1F51A29100F69830 /* Main.storyboard */,
-				7CAB72621F548980007378C1 /* CustomCalloutView.xib */,
+				7CE054821F5498B3004645B3 /* CustomCalloutView.xib */,
+				7CE0547E1F5497BF004645B3 /* StagApp-Bold.ttf */,
+				7CE0547F1F5497BF004645B3 /* StagApp-Medium.ttf */,
 				7CFA5BDE1F51A29100F69830 /* Assets.xcassets */,
 				7CFA5BE01F51A29100F69830 /* LaunchScreen.storyboard */,
 				7CFA5BE31F51A29100F69830 /* Info.plist */,
@@ -340,11 +344,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CAB72631F548980007378C1 /* CustomCalloutView.xib in Resources */,
 				7CFA5BE21F51A29100F69830 /* LaunchScreen.storyboard in Resources */,
 				7CAB725F1F5488C5007378C1 /* hdar_close.png in Resources */,
 				7CAB72611F5488C5007378C1 /* hdar_close@3x.png in Resources */,
 				7CFA5BDF1F51A29100F69830 /* Assets.xcassets in Resources */,
+				7CE054831F5498B3004645B3 /* CustomCalloutView.xib in Resources */,
 				7CFA5BDD1F51A29100F69830 /* Main.storyboard in Resources */,
 				7CAB72601F5488C5007378C1 /* hdar_close@2x.png in Resources */,
 				7CAB725E1F5488C5007378C1 /* DebugMapViewController.xib in Resources */,
