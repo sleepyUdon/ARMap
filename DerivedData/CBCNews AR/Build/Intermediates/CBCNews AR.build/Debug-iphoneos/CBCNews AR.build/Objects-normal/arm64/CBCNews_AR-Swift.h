@@ -408,7 +408,6 @@ SWIFT_CLASS("_TtC10CBCNews_AR14ViewController")
 @property (nonatomic, strong) ARViewController * _Null_unspecified arViewController;
 @property (nonatomic) BOOL startedLoadingPOIs;
 - (void)viewDidLoad;
-- (IBAction)showARController:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

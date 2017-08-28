@@ -1,0 +1,151 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StoryAnnotation"
+provides-nominal:
+- "10CBCNews_AR15StoryAnnotationC"
+provides-member:
+- ["10CBCNews_AR15StoryAnnotationC", ""]
+provides-dynamic-lookup:
+- "coordinate"
+- "publishedDate"
+- "title"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CLLocationCoordinate2D"
+- "MKAnnotation"
+- "NSObject"
+- "StoryAnnotation"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- ["s9AnyObjectP", "coordinate"]
+- !private ["s9AnyObjectP", "init"]
+- !private ["s9AnyObjectP", "publishedDate"]
+- ["s9AnyObjectP", "subtitle"]
+- ["s9AnyObjectP", "title"]
+- ["s9AnyObjectP", ""]
+- ["s7CVarArgP", "coordinate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "publishedDate"]
+- ["s7CVarArgP", "subtitle"]
+- ["s7CVarArgP", "title"]
+- ["s7CVarArgP", ""]
+- ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "publishedDate"]
+- ["s28CustomDebugStringConvertibleP", "subtitle"]
+- ["s28CustomDebugStringConvertibleP", "title"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "publishedDate"]
+- ["s23CustomStringConvertibleP", "subtitle"]
+- ["s23CustomStringConvertibleP", "title"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s9EquatableP", "coordinate"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "publishedDate"]
+- ["s9EquatableP", "subtitle"]
+- ["s9EquatableP", "title"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "coordinate"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "publishedDate"]
+- ["s8HashableP", "subtitle"]
+- ["s8HashableP", "title"]
+- ["s8HashableP", ""]
+- ["So12MKAnnotationP", "coordinate"]
+- !private ["So12MKAnnotationP", "publishedDate"]
+- ["So12MKAnnotationP", "subtitle"]
+- ["So12MKAnnotationP", "title"]
+- ["So12MKAnnotationP", ""]
+- ["So8NSObjectC", "CLLocationCoordinate2D"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "coordinate"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "publishedDate"]
+- ["So8NSObjectC", "subtitle"]
+- ["So8NSObjectC", "title"]
+- ["So8NSObjectC", ""]
+- ["So16NSObjectProtocolP", "coordinate"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "publishedDate"]
+- ["So16NSObjectProtocolP", "subtitle"]
+- ["So16NSObjectProtocolP", "title"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["s12StaticStringV", "init"]
+- ["10CBCNews_AR15StoryAnnotationC", "CLLocationCoordinate2D"]
+- ["10CBCNews_AR15StoryAnnotationC", "String"]
+- ["10CBCNews_AR15StoryAnnotationC", "coordinate"]
+- ["10CBCNews_AR15StoryAnnotationC", "deinit"]
+- ["10CBCNews_AR15StoryAnnotationC", "init"]
+- ["10CBCNews_AR15StoryAnnotationC", "publishedDate"]
+- ["10CBCNews_AR15StoryAnnotationC", "subtitle"]
+- ["10CBCNews_AR15StoryAnnotationC", "title"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "publishedDate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "subtitle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- "s9AnyObjectP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "So12MKAnnotationP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s12StaticStringV"
+- "10CBCNews_AR15StoryAnnotationC"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/vivianechan/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "965ee66197424ccbc1f3bea2f139c78a"

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7CBEBC211F51AEFC004A71F6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBEBC201F51AEFC004A71F6 /* MapKit.framework */; };
+		7CBEBC231F545879004A71F6 /* StoryAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBEBC221F545879004A71F6 /* StoryAnnotationView.swift */; };
 		7CFA5BD81F51A29100F69830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5BD71F51A29100F69830 /* AppDelegate.swift */; };
 		7CFA5BDA1F51A29100F69830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA5BD91F51A29100F69830 /* ViewController.swift */; };
 		7CFA5BDD1F51A29100F69830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA5BDB1F51A29100F69830 /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		7CBEBC201F51AEFC004A71F6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7CBEBC221F545879004A71F6 /* StoryAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryAnnotationView.swift; sourceTree = "<group>"; };
 		7CFA5BD41F51A29100F69830 /* CBCNews AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CBCNews AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFA5BD71F51A29100F69830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CFA5BD91F51A29100F69830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				7CFA5BD71F51A29100F69830 /* AppDelegate.swift */,
 				7CFA5BD91F51A29100F69830 /* ViewController.swift */,
 				7CFA5C251F51A79E00F69830 /* StoryAnnotation.swift */,
+				7CBEBC221F545879004A71F6 /* StoryAnnotationView.swift */,
 				7CFA5C071F51A2F800F69830 /* Model */,
 				7CFA5C161F51A49900F69830 /* HDAugmentedReality */,
 				7CFA5BDB1F51A29100F69830 /* Main.storyboard */,
@@ -374,6 +377,7 @@
 				7CFA5C171F51A49900F69830 /* ARAnnotation.swift in Sources */,
 				7CFA5C1C1F51A49900F69830 /* DebugMapViewController.swift in Sources */,
 				7CFA5C181F51A49900F69830 /* ARAnnotationView.swift in Sources */,
+				7CBEBC231F545879004A71F6 /* StoryAnnotationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

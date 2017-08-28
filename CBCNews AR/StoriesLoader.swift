@@ -15,10 +15,10 @@ struct StoriesLoader {
         
         var stories = [Story]()
         
-        let story1 = Story(storyLocation: CLLocation(latitude: 43.6526768, longitude: -79.4121526), storyPublishedDate:"July 16, 2016", storyHashtag: "#STORY1")
+        let story1 = Story(storyLocation: CLLocation(latitude: 43.6458693, longitude: -79.4567279), storyPublishedDate:"July 16, 2016", storyHashtag: "#STORY1")
         stories.append(story1)
         
-        let story2 = Story(storyLocation: CLLocation(latitude: 43.4450, longitude: -80.3882), storyPublishedDate:"July 16, 2016",storyHashtag: "#STORY2")
+        let story2 = Story(storyLocation: CLLocation(latitude: 43.6448015, longitude: -79.388423), storyPublishedDate:"July 16, 2016",storyHashtag: "#STORY2")
         stories.append(story2)
 
         let story3 = Story(storyLocation: CLLocation(latitude: 43.1450, longitude: -81.3882), storyPublishedDate:"July 16, 2016", storyHashtag: "#STORY3")
