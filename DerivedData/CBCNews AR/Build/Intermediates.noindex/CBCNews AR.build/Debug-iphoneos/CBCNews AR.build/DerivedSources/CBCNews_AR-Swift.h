@@ -448,20 +448,16 @@ SWIFT_CLASS("_TtC10CBCNews_AR15StoryAnnotation")
 @end
 
 @class UILabel;
-@class UITouch;
-@class UIEvent;
 
 SWIFT_CLASS("_TtC10CBCNews_AR19StoryAnnotationView")
-@interface StoryAnnotationView : ARAnnotationView
+@interface StoryAnnotationView : MKAnnotationView
 @property (nonatomic, strong) UILabel * _Nullable titleLabel;
 @property (nonatomic, strong) UILabel * _Nullable distanceLabel;
 - (void)didMoveToSuperview;
 - (void)loadUI;
 - (void)layoutSubviews;
-- (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithAnnotation:(id <MKAnnotation> _Nullable)annotation reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -473,6 +469,11 @@ SWIFT_CLASS("_TtC10CBCNews_AR14ViewController")
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface ViewController (SWIFT_EXTENSION(CBCNews_AR)) <MKMapViewDelegate>
+- (MKAnnotationView * _Nullable)mapView:(MKMapView * _Nonnull)mapView viewForAnnotation:(id <MKAnnotation> _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
 @end
 
 

@@ -1,11 +1,311 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "StoryAnnotationView"
 provides-nominal:
+- "C10CBCNews_AR19StoryAnnotationView"
 provides-member:
+- ["C10CBCNews_AR19StoryAnnotationView", ""]
 provides-dynamic-lookup:
+- "distanceLabel"
+- "hitTest"
+- "point"
+- "titleLabel"
 depends-top-level:
+- !private "!"
+- !private "!="
+- "AssignmentPrecedence"
+- "Bool"
+- "CGPoint"
+- "MKAnnotationView"
+- "StoryAnnotationView"
+- "UIEvent"
+- "UILabel"
+- "UIView"
 depends-member:
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "bringSubview"]
+- !private ["Ps9AnyObject", "frame"]
+- !private ["Ps9AnyObject", "hitTest"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "subviews"]
+- !private ["Ps9AnyObject", "superview"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "bounds"]
+- !private ["PSo15CALayerDelegate", "bringSubview"]
+- !private ["PSo15CALayerDelegate", "frame"]
+- !private ["PSo15CALayerDelegate", "hitTest"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "subviews"]
+- !private ["PSo15CALayerDelegate", "superview"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["VSC6CGRect", "contains"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "bringSubview"]
+- !private ["Ps7CVarArg", "frame"]
+- !private ["Ps7CVarArg", "hitTest"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "subviews"]
+- !private ["Ps7CVarArg", "superview"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "bringSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "contains"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- !private ["Ps28CustomDebugStringConvertible", "hitTest"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "subviews"]
+- !private ["Ps28CustomDebugStringConvertible", "superview"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "contains"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "contains"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "bringSubview"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- !private ["Ps23CustomStringConvertible", "hitTest"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "subviews"]
+- !private ["Ps23CustomStringConvertible", "superview"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "bringSubview"]
+- !private ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "frame"]
+- !private ["Ps9Equatable", "hitTest"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "subviews"]
+- !private ["Ps9Equatable", "superview"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "bringSubview"]
+- !private ["Ps8Hashable", "frame"]
+- !private ["Ps8Hashable", "hitTest"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "subviews"]
+- !private ["Ps8Hashable", "superview"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["CSo16MKAnnotationView", "Bool"]
+- ["CSo16MKAnnotationView", "CGPoint"]
+- ["CSo16MKAnnotationView", "UIEvent"]
+- ["CSo16MKAnnotationView", "UILabel"]
+- ["CSo16MKAnnotationView", "UIView"]
+- !private ["CSo16MKAnnotationView", "bounds"]
+- ["CSo16MKAnnotationView", "distanceLabel"]
+- ["CSo16MKAnnotationView", "hitTest"]
+- ["CSo16MKAnnotationView", "init"]
+- ["CSo16MKAnnotationView", "point"]
+- !private ["CSo16MKAnnotationView", "subviews"]
+- !private ["CSo16MKAnnotationView", "superview"]
+- ["CSo16MKAnnotationView", "titleLabel"]
+- ["CSo16MKAnnotationView", ""]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "bringSubview"]
+- !private ["PSo8NSCoding", "frame"]
+- !private ["PSo8NSCoding", "hitTest"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "subviews"]
+- !private ["PSo8NSCoding", "superview"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "UIEvent"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UIView"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "bringSubview"]
+- ["CSo8NSObject", "distanceLabel"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "hitTest"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "point"]
+- !private ["CSo8NSObject", "subviews"]
+- !private ["CSo8NSObject", "superview"]
+- ["CSo8NSObject", "titleLabel"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "bringSubview"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- !private ["PSo16NSObjectProtocol", "hitTest"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "subviews"]
+- !private ["PSo16NSObjectProtocol", "superview"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C10CBCNews_AR19StoryAnnotationView", "Bool"]
+- ["C10CBCNews_AR19StoryAnnotationView", "CGPoint"]
+- ["C10CBCNews_AR19StoryAnnotationView", "UIEvent"]
+- ["C10CBCNews_AR19StoryAnnotationView", "UILabel"]
+- ["C10CBCNews_AR19StoryAnnotationView", "UIView"]
+- !private ["C10CBCNews_AR19StoryAnnotationView", "bounds"]
+- ["C10CBCNews_AR19StoryAnnotationView", "deinit"]
+- ["C10CBCNews_AR19StoryAnnotationView", "distanceLabel"]
+- ["C10CBCNews_AR19StoryAnnotationView", "hitTest"]
+- ["C10CBCNews_AR19StoryAnnotationView", "init"]
+- ["C10CBCNews_AR19StoryAnnotationView", "point"]
+- !private ["C10CBCNews_AR19StoryAnnotationView", "subviews"]
+- !private ["C10CBCNews_AR19StoryAnnotationView", "superview"]
+- ["C10CBCNews_AR19StoryAnnotationView", "titleLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo29UIAccessibilityIdentification", "bringSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo29UIAccessibilityIdentification", "hitTest"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "subviews"]
+- !private ["PSo29UIAccessibilityIdentification", "superview"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "bounds"]
+- !private ["PSo12UIAppearance", "bringSubview"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo12UIAppearance", "hitTest"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "subviews"]
+- !private ["PSo12UIAppearance", "superview"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- !private ["PSo21UIAppearanceContainer", "bringSubview"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- !private ["PSo21UIAppearanceContainer", "hitTest"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "subviews"]
+- !private ["PSo21UIAppearanceContainer", "superview"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- !private ["PSo17UICoordinateSpace", "bringSubview"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo17UICoordinateSpace", "hitTest"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "subviews"]
+- !private ["PSo17UICoordinateSpace", "superview"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- !private ["PSo13UIDynamicItem", "bringSubview"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo13UIDynamicItem", "hitTest"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "subviews"]
+- !private ["PSo13UIDynamicItem", "superview"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- !private ["PSo18UIFocusEnvironment", "bringSubview"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- !private ["PSo18UIFocusEnvironment", "hitTest"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "subviews"]
+- !private ["PSo18UIFocusEnvironment", "superview"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "bounds"]
+- !private ["PSo11UIFocusItem", "bringSubview"]
+- !private ["PSo11UIFocusItem", "frame"]
+- !private ["PSo11UIFocusItem", "hitTest"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "subviews"]
+- !private ["PSo11UIFocusItem", "superview"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "CGPoint"]
+- ["CSo11UIResponder", "UIEvent"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UIView"]
+- !private ["CSo11UIResponder", "bounds"]
+- !private ["CSo11UIResponder", "bringSubview"]
+- ["CSo11UIResponder", "distanceLabel"]
+- !private ["CSo11UIResponder", "frame"]
+- ["CSo11UIResponder", "hitTest"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "point"]
+- !private ["CSo11UIResponder", "subviews"]
+- !private ["CSo11UIResponder", "superview"]
+- ["CSo11UIResponder", "titleLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "bounds"]
+- !private ["PSo30UIResponderStandardEditActions", "bringSubview"]
+- !private ["PSo30UIResponderStandardEditActions", "frame"]
+- !private ["PSo30UIResponderStandardEditActions", "hitTest"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "subviews"]
+- !private ["PSo30UIResponderStandardEditActions", "superview"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "bringSubview"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- !private ["PSo18UITraitEnvironment", "hitTest"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "subviews"]
+- !private ["PSo18UITraitEnvironment", "superview"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "CGPoint"]
+- ["CSo6UIView", "UIEvent"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UIView"]
+- !private ["CSo6UIView", "bounds"]
+- !private ["CSo6UIView", "bringSubview"]
+- ["CSo6UIView", "distanceLabel"]
+- !private ["CSo6UIView", "frame"]
+- ["CSo6UIView", "hitTest"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "point"]
+- !private ["CSo6UIView", "subviews"]
+- !private ["CSo6UIView", "superview"]
+- ["CSo6UIView", "titleLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "bounds"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "bringSubview"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "frame"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "hitTest"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "subviews"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "superview"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "bringSubview"]
+- !private ["Ps9_Hashable", "frame"]
+- !private ["Ps9_Hashable", "hitTest"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "subviews"]
+- !private ["Ps9_Hashable", "superview"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "contains"]
 depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "PSo15CALayerDelegate"
+- !private "VSC6CGRect"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- "CSo16MKAnnotationView"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C10CBCNews_AR19StoryAnnotationView"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
@@ -34,4 +334,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "5bf39d8b5f0094ca83c744a0da4fb204"
+interface-hash: "0fe38753e2941ffd0310ea85fd847851"

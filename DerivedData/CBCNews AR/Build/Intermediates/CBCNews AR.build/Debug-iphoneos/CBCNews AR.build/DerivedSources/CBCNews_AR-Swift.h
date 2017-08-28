@@ -401,6 +401,19 @@ SWIFT_CLASS("_TtC10CBCNews_AR15StoryAnnotation")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 
+@class UILabel;
+@class UIEvent;
+
+SWIFT_CLASS("_TtC10CBCNews_AR19StoryAnnotationView")
+@interface StoryAnnotationView : MKAnnotationView
+@property (nonatomic, strong) UILabel * _Nullable titleLabel;
+@property (nonatomic, strong) UILabel * _Nullable distanceLabel;
+- (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithAnnotation:(id <MKAnnotation> _Nullable)annotation reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC10CBCNews_AR14ViewController")
 @interface ViewController : UIViewController
@@ -416,6 +429,13 @@ SWIFT_CLASS("_TtC10CBCNews_AR14ViewController")
 @interface ViewController (SWIFT_EXTENSION(CBCNews_AR)) <CLLocationManagerDelegate>
 - (BOOL)locationManagerShouldDisplayHeadingCalibration:(CLLocationManager * _Nonnull)manager SWIFT_WARN_UNUSED_RESULT;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+@end
+
+@class UIControl;
+
+@interface ViewController (SWIFT_EXTENSION(CBCNews_AR)) <MKMapViewDelegate>
+- (MKAnnotationView * _Nullable)mapView:(MKMapView * _Nonnull)mapView viewForAnnotation:(id <MKAnnotation> _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
+- (void)mapView:(MKMapView * _Nonnull)mapView annotationView:(MKAnnotationView * _Nonnull)view calloutAccessoryControlTapped:(UIControl * _Nonnull)control;
 @end
 
 #pragma clang diagnostic pop

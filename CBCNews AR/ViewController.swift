@@ -30,7 +30,29 @@ class ViewController: UIViewController {
     }
 }
 
+extension ViewController: MKMapViewDelegate {
+    public func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+                
+        let annotationView = StoryAnnotationView(annotation:annotation, reuseIdentifier:"")
+        annotationView.isEnabled = true
+        annotationView.canShowCallout = true
+        annotationView.image = #imageLiteral(resourceName: "mapPin")
+
+        let btn = UIButton(type: .detailDisclosure)
+        annotationView.rightCalloutAccessoryView = btn
+        return annotationView
+
+    }
+
+    public func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+        print("tapped")
+    }
+
+}
+
 extension ViewController: CLLocationManagerDelegate {
+    
+    
     func locationManagerShouldDisplayHeadingCalibration(_ manager: CLLocationManager) -> Bool {
         return true
     }

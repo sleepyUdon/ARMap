@@ -1,9 +1,9 @@
 version: "Apple Swift version 4.0 (swiftlang-900.0.45.6 clang-900.0.26)"
 options: "85c249dcd7e448111e4a1fc354f01f2c"
-build_time: [1503937311, 823834000]
+build_time: [1503938631, 687804000]
 inputs:
   "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/StoryAnnotation.swift": [1503832151, 0]
-  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/ViewController.swift": [1503832178, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/ViewController.swift": [1503938631, 0]
   "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/2.0 Sample app/Places/Places/HDAugmentedReality/Classes/ARConfiguration.swift": [1476507906, 0]
   "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/AppDelegate.swift": [1503754248, 0]
   "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/2.0 Sample app/Places/Places/HDAugmentedReality/Classes/ARViewController.swift": [1476507906, 0]
@@ -13,4 +13,4 @@ inputs:
   "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/2.0 Sample app/Places/Places/HDAugmentedReality/Classes/ARAnnotation.swift": [1476507906, 0]
   "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/2.0 Sample app/Places/Places/HDAugmentedReality/Classes/Debug/DebugMapViewController.swift": [1476507906, 0]
   "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/2.0 Sample app/Places/Places/HDAugmentedReality/Classes/ARAnnotationView.swift": [1476507906, 0]
-  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/StoryAnnotationView.swift": [1503936583, 0]
+  "/Users/vivianechan/Documents/1.0 Projects/15.0 CBCNews AR/3.0 CBCNews AR - iOS/CBCNews AR/CBCNews AR/StoryAnnotationView.swift": [1503938168, 0]
